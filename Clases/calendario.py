@@ -58,8 +58,6 @@ class Calendario():
                     maestro = ''
                 salon = self.salones[j]
 
-                #informacion.append(self.salones[j])
-                #informacion.append({'color': color})
                 self.clases.append({
                     'materia': materia,
                     'maestro': maestro,
@@ -67,7 +65,6 @@ class Calendario():
                     'color': color,
                     'atributos': atributos
                 })
-                #self.clases.append({'informacion': informacion, 'atributos': atributos})
                 j += 1
             except:
                 continue

@@ -16,22 +16,20 @@ class jsonConverter():
     def convertArrayToJSON(self, array, ventana):
         self.array = array
         try:
-            name = self.array[0][0].split("-")
-            name = name[0]
+            name = self.array[0][0]
             try:
-                with open('./data.json') as file:
-                    self.data = json.load(file)
+                try:
+                    with open('./data.json') as file:
+                        self.data = json.load(file)
+                except:
+                    self.data['Calendario']= {}
                 if self.validarSiYaExisteElHorarioGuardado(self.data, name):
                         MsgBox = tk.messagebox.askquestion (parent=ventana, title= 'Registro ya guardado',message='Estas seguro de sobrescribir la información guardada',icon = 'warning')
                         if MsgBox == 'no':
                             return False
                         else:
                             pass 
-                try:
-                    self.data['Calendario'][name] = []
-                except:
-                    self.data['Calendario']= {}
-                    self.data['Calendario'][name] = []
+                self.data['Calendario'][name] = []
             except:
                 return False
 
@@ -77,9 +75,9 @@ class jsonConverter():
         data = []
         clases = []
         horario = array[0]['horario']
-        clases.append({
+        clases.append(
             horario  
-        })
+        )
         for item in array:
             if horario == item['horario']:
                 clases.append({
@@ -92,9 +90,9 @@ class jsonConverter():
                 horario = item['horario']
                 data.append(clases)
                 clases = []
-                clases.append({
+                clases.append(
                     horario  
-                })
+                )
                 clases.append({
                     'materia': item['materia'],
                     'maestro': item['maestro'],
@@ -153,7 +151,7 @@ class jsonConverter():
                 self.data = json.load(file)
                 return self.data['Fecha']
         except:
-            tk.messagebox.showwarning(parent=ventana,title='Error', message='No se pudo recuperar la información solicitada!' )
+            tk.messagebox.showwarning(parent=ventana,title='Error', message='Usted no ha agregado dias inhábiles' )
             pass
 
     def deleteFechaJson(self, fecha):

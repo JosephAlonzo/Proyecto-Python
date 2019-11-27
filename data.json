@@ -1,6 +1,1656 @@
 {
     "Calendario": {
-        "1F": [
+        "1A-DSM": [
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-101",
+                "color": "#EF0B6B",
+                "horario": "7:00-7:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-101",
+                "color": "#EF0B6B",
+                "horario": "7:00-7:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Quijano Cruz Bonesi",
+                "salon": "Aula C-101",
+                "color": "#229C3E",
+                "horario": "7:00-7:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Ceballos Hernandez Martha Rocio",
+                "salon": "Lab 4",
+                "color": "#666666",
+                "horario": "7:00-7:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Quijano Cruz Bonesi",
+                "salon": "Aula C-101",
+                "color": "#229C3E",
+                "horario": "7:00-7:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-101",
+                "color": "#EF0B6B",
+                "horario": "7:50-8:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-101",
+                "color": "#EF0B6B",
+                "horario": "7:50-8:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Quijano Cruz Bonesi",
+                "salon": "Aula C-101",
+                "color": "#229C3E",
+                "horario": "7:50-8:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-101",
+                "color": "#EF0B6B",
+                "horario": "7:50-8:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Quijano Cruz Bonesi",
+                "salon": "Aula C-101",
+                "color": "#229C3E",
+                "horario": "7:50-8:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Quijano Cruz Bonesi",
+                "salon": "Aula C-101",
+                "color": "#229C3E",
+                "horario": "9:00-9:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 4",
+                "color": "#28F8B8",
+                "horario": "9:00-9:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Lab 6",
+                "color": "#C014FF",
+                "horario": "9:00-9:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Lab 2",
+                "color": "#C014FF",
+                "horario": "9:00-9:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 6",
+                "color": "#28F8B8",
+                "horario": "9:00-9:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Quijano Cruz Bonesi",
+                "salon": "Aula C-101",
+                "color": "#229C3E",
+                "horario": "9:50-10:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "DESARROLLO DE HABILIDADES DEL PENSAMIENTO L\u00d3GICO",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Aula C-101",
+                "color": "#3333CC",
+                "horario": "9:50-10:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Lab 6",
+                "color": "#C014FF",
+                "horario": "9:50-10:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Lab 2",
+                "color": "#C014FF",
+                "horario": "9:50-10:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 6",
+                "color": "#28F8B8",
+                "horario": "9:50-10:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL I",
+                "maestro": "Martin Flores Juan Manuel",
+                "salon": "Aula C-101",
+                "color": "#FAD86A",
+                "horario": "11:00-11:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-101",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Ceballos Hernandez Martha Rocio",
+                "salon": "Lab1",
+                "color": "#666666",
+                "horario": "11:00-11:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-101",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Ceballos Hernandez Martha Rocio",
+                "salon": "Lab 5",
+                "color": "#666666",
+                "horario": "11:00-11:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL I",
+                "maestro": "Martin Flores Juan Manuel",
+                "salon": "Aula C-101",
+                "color": "#FAD86A",
+                "horario": "11:50-12:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-101",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Ceballos Hernandez Martha Rocio",
+                "salon": "Lab1",
+                "color": "#666666",
+                "horario": "11:50-12:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-101",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Ceballos Hernandez Martha Rocio",
+                "salon": "Lab 5",
+                "color": "#666666",
+                "horario": "11:50-12:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-101",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Lu"
+            },
+            {
+                "materia": "DESARROLLO DE HABILIDADES DEL PENSAMIENTO L\u00d3GICO",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Aula C-101",
+                "color": "#3333CC",
+                "horario": "12:40-13:30",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-101",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Mi"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 2",
+                "color": "#28F8B8",
+                "horario": "12:40-13:30",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Lab 5",
+                "color": "#C014FF",
+                "horario": "12:40-13:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-101",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "DESARROLLO DE HABILIDADES DEL PENSAMIENTO L\u00d3GICO",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Aula C-101",
+                "color": "#3333CC",
+                "horario": "13:30-14:20",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-101",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 2",
+                "color": "#28F8B8",
+                "horario": "13:30-14:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "TUTOR\u00cdAS",
+                "maestro": "Matos Morfin Victor Manuel",
+                "salon": "Aula C-103",
+                "color": "#A0FFFF",
+                "horario": "13:30-14:20",
+                "dia": "Vi"
+            }
+        ],
+        "1B-DSM": [
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Aula C-116",
+                "color": "#FF4200",
+                "horario": "7:00-7:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Quintal Xool Rubi Patricia",
+                "salon": "Aula C-116",
+                "color": "#135D1E",
+                "horario": "7:00-7:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "DESARROLLO DE HABILIDADES DEL PENSAMIENTO L\u00d3GICO",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Aula C-116",
+                "color": "#3333CC",
+                "horario": "7:00-7:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Quintal Xool Rubi Patricia",
+                "salon": "Aula C-116",
+                "color": "#135D1E",
+                "horario": "7:00-7:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 2",
+                "color": "#003300",
+                "horario": "7:00-7:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Aula C-116",
+                "color": "#FF4200",
+                "horario": "7:50-8:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "TUTOR\u00cdAS",
+                "maestro": "Matos Morfin Victor Manuel",
+                "salon": "Aula C-116",
+                "color": "#A0FFFF",
+                "horario": "7:50-8:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "DESARROLLO DE HABILIDADES DEL PENSAMIENTO L\u00d3GICO",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Aula C-116",
+                "color": "#3333CC",
+                "horario": "7:50-8:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Quintal Xool Rubi Patricia",
+                "salon": "Aula C-116",
+                "color": "#135D1E",
+                "horario": "7:50-8:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 2",
+                "color": "#003300",
+                "horario": "7:50-8:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Quintal Xool Rubi Patricia",
+                "salon": "Aula C-116",
+                "color": "#135D1E",
+                "horario": "9:00-9:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Aula C-116",
+                "color": "#FF4200",
+                "horario": "9:00-9:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 2",
+                "color": "#003300",
+                "horario": "9:00-9:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Zapata Vargas Martha Adriana",
+                "salon": "Lab 5",
+                "color": "#95F620",
+                "horario": "9:00-9:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL I",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-116",
+                "color": "#EF0B6B",
+                "horario": "9:00-9:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Quintal Xool Rubi Patricia",
+                "salon": "Aula C-116",
+                "color": "#135D1E",
+                "horario": "9:50-10:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Aula C-116",
+                "color": "#FF4200",
+                "horario": "9:50-10:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 2",
+                "color": "#003300",
+                "horario": "9:50-10:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Zapata Vargas Martha Adriana",
+                "salon": "Lab 5",
+                "color": "#95F620",
+                "horario": "9:50-10:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL I",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-116",
+                "color": "#EF0B6B",
+                "horario": "9:50-10:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Matos Morfin Victor Manuel",
+                "salon": "Lab 7",
+                "color": "#A0FFFF",
+                "horario": "11:00-11:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-116",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Matos Morfin Victor Manuel",
+                "salon": "Lab 2",
+                "color": "#A0FFFF",
+                "horario": "11:00-11:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-116",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Zapata Vargas Martha Adriana",
+                "salon": "Lab 8",
+                "color": "#95F620",
+                "horario": "11:00-11:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Zapata Vargas Martha Adriana",
+                "salon": "Lab 7",
+                "color": "#95F620",
+                "horario": "11:50-12:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-116",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Matos Morfin Victor Manuel",
+                "salon": "Lab 2",
+                "color": "#A0FFFF",
+                "horario": "11:50-12:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-116",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Zapata Vargas Martha Adriana",
+                "salon": "Lab 8",
+                "color": "#95F620",
+                "horario": "11:50-12:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-116",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Lu"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Matos Morfin Victor Manuel",
+                "salon": "Lab 8",
+                "color": "#A0FFFF",
+                "horario": "12:40-13:30",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-116",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab1",
+                "color": "#003300",
+                "horario": "12:40-13:30",
+                "dia": "Ju"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Aula C-116",
+                "color": "#FF4200",
+                "horario": "12:40-13:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-116",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Matos Morfin Victor Manuel",
+                "salon": "Lab 8",
+                "color": "#A0FFFF",
+                "horario": "13:30-14:20",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-116",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "DESARROLLO DE HABILIDADES DEL PENSAMIENTO L\u00d3GICO",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Aula C-112",
+                "color": "#3333CC",
+                "horario": "13:30-14:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Aula C-116",
+                "color": "#FF4200",
+                "horario": "13:30-14:20",
+                "dia": "Vi"
+            }
+        ],
+        "1C-DSM": [
+            {
+                "materia": "DESARROLLO DE HABILIDADES DEL PENSAMIENTO L\u00d3GICO",
+                "maestro": "Quijano Cruz Bonesi",
+                "salon": "Aula C-112",
+                "color": "#229C3E",
+                "horario": "7:00-7:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 4",
+                "color": "#003300",
+                "horario": "7:00-7:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 5",
+                "color": "#003300",
+                "horario": "7:00-7:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 2",
+                "color": "#14C000",
+                "horario": "7:00-7:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL I",
+                "maestro": "Rodr\u00edguez Mex Cristina  Del Carmen",
+                "salon": "Aula C-114",
+                "color": "#032ECD",
+                "horario": "7:00-7:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "DESARROLLO DE HABILIDADES DEL PENSAMIENTO L\u00d3GICO",
+                "maestro": "Quijano Cruz Bonesi",
+                "salon": "Aula C-112",
+                "color": "#229C3E",
+                "horario": "7:50-8:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 4",
+                "color": "#003300",
+                "horario": "7:50-8:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "TUTOR\u00cdAS",
+                "maestro": "Matos Morfin Victor Manuel",
+                "salon": "Aula C-102",
+                "color": "#A0FFFF",
+                "horario": "7:50-8:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 2",
+                "color": "#14C000",
+                "horario": "7:50-8:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL I",
+                "maestro": "Rodr\u00edguez Mex Cristina  Del Carmen",
+                "salon": "Aula C-114",
+                "color": "#032ECD",
+                "horario": "7:50-8:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 4",
+                "color": "#003300",
+                "horario": "9:00-9:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab 7",
+                "color": "#FF9900",
+                "horario": "9:00-9:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab1",
+                "color": "#FF9900",
+                "horario": "9:00-9:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Rodr\u00edguez Mex Cristina  Del Carmen",
+                "salon": "Aula C-102",
+                "color": "#032ECD",
+                "horario": "9:00-9:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "DESARROLLO DE HABILIDADES DEL PENSAMIENTO L\u00d3GICO",
+                "maestro": "Quijano Cruz Bonesi",
+                "salon": "Aula C-104",
+                "color": "#229C3E",
+                "horario": "9:00-9:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 4",
+                "color": "#003300",
+                "horario": "9:50-10:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab 7",
+                "color": "#FF9900",
+                "horario": "9:50-10:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab1",
+                "color": "#FF9900",
+                "horario": "9:50-10:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Rodr\u00edguez Mex Cristina  Del Carmen",
+                "salon": "Aula C-102",
+                "color": "#032ECD",
+                "horario": "9:50-10:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Aula C-104",
+                "color": "#14C000",
+                "horario": "9:50-10:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Rodr\u00edguez Mex Cristina  Del Carmen",
+                "salon": "Aula C-102",
+                "color": "#032ECD",
+                "horario": "11:00-11:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-102",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Aula C-112",
+                "color": "#FF4200",
+                "horario": "11:00-11:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-102",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Aula C-116",
+                "color": "#FF4200",
+                "horario": "11:00-11:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab1",
+                "color": "#FF9900",
+                "horario": "11:50-12:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-102",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Aula C-112",
+                "color": "#FF4200",
+                "horario": "11:50-12:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-102",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Aula C-116",
+                "color": "#FF4200",
+                "horario": "11:50-12:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-102",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Lu"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 5",
+                "color": "#14C000",
+                "horario": "12:40-13:30",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-102",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Mi"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Aula C-102",
+                "color": "#FF4200",
+                "horario": "12:40-13:30",
+                "dia": "Ju"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Rodr\u00edguez Mex Cristina  Del Carmen",
+                "salon": "Aula C-101",
+                "color": "#032ECD",
+                "horario": "12:40-13:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-102",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 5",
+                "color": "#14C000",
+                "horario": "13:30-14:20",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-102",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Aula C-102",
+                "color": "#FF4200",
+                "horario": "13:30-14:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Rodr\u00edguez Mex Cristina  Del Carmen",
+                "salon": "Aula C-101",
+                "color": "#032ECD",
+                "horario": "13:30-14:20",
+                "dia": "Vi"
+            }
+        ],
+        "1D-DSM": [
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Aula C-106",
+                "color": "#3333CC",
+                "horario": "7:00-7:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "DESARROLLO DE HABILIDADES DEL PENSAMIENTO L\u00d3GICO",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Aula C-112",
+                "color": "#FF4200",
+                "horario": "7:00-7:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "DESARROLLO DE HABILIDADES DEL PENSAMIENTO L\u00d3GICO",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Aula C-102",
+                "color": "#FF4200",
+                "horario": "7:00-7:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "7:00-7:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab1",
+                "color": "#FF9900",
+                "horario": "7:00-7:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Aula C-106",
+                "color": "#3333CC",
+                "horario": "7:50-8:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "DESARROLLO DE HABILIDADES DEL PENSAMIENTO L\u00d3GICO",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Aula C-112",
+                "color": "#FF4200",
+                "horario": "7:50-8:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Rodr\u00edguez Mex Cristina  Del Carmen",
+                "salon": "Aula C-112",
+                "color": "#032ECD",
+                "horario": "7:50-8:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Lab 4",
+                "color": "#C014FF",
+                "horario": "7:50-8:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab1",
+                "color": "#FF9900",
+                "horario": "7:50-8:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 5",
+                "color": "#14C000",
+                "horario": "9:00-9:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Lab 2",
+                "color": "#C014FF",
+                "horario": "9:00-9:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL I",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-112",
+                "color": "#EF0B6B",
+                "horario": "9:00-9:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab 9",
+                "color": "#FF9900",
+                "horario": "9:00-9:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Rodr\u00edguez Mex Cristina  Del Carmen",
+                "salon": "Aula C-112",
+                "color": "#032ECD",
+                "horario": "9:00-9:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 5",
+                "color": "#14C000",
+                "horario": "9:50-10:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Lab 2",
+                "color": "#C014FF",
+                "horario": "9:50-10:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL I",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-112",
+                "color": "#EF0B6B",
+                "horario": "9:50-10:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab 9",
+                "color": "#FF9900",
+                "horario": "9:50-10:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Rodr\u00edguez Mex Cristina  Del Carmen",
+                "salon": "Aula C-112",
+                "color": "#032ECD",
+                "horario": "9:50-10:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Lab 5",
+                "color": "#C014FF",
+                "horario": "11:00-11:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-112",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Aula C-102",
+                "color": "#3333CC",
+                "horario": "11:00-11:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-112",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Aula C-112",
+                "color": "#3333CC",
+                "horario": "11:00-11:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Lab 5",
+                "color": "#C014FF",
+                "horario": "11:50-12:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-112",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Aula C-102",
+                "color": "#3333CC",
+                "horario": "11:50-12:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-112",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Aula C-112",
+                "color": "#3333CC",
+                "horario": "11:50-12:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-112",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Lu"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Rodr\u00edguez Mex Cristina  Del Carmen",
+                "salon": "Aula C-112",
+                "color": "#032ECD",
+                "horario": "12:40-13:30",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-112",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Mi"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 6",
+                "color": "#14C000",
+                "horario": "12:40-13:30",
+                "dia": "Ju"
+            },
+            {
+                "materia": "TUTOR\u00cdAS",
+                "maestro": "Matos Morfin Victor Manuel",
+                "salon": "Aula C-112",
+                "color": "#A0FFFF",
+                "horario": "12:40-13:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-112",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Rodr\u00edguez Mex Cristina  Del Carmen",
+                "salon": "Aula C-112",
+                "color": "#032ECD",
+                "horario": "13:30-14:20",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-112",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 6",
+                "color": "#14C000",
+                "horario": "13:30-14:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab 2",
+                "color": "#FF9900",
+                "horario": "13:30-14:20",
+                "dia": "Vi"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "14:20-15:10",
+                "dia": "Lu"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "14:20-15:10",
+                "dia": "Ma"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "14:20-15:10",
+                "dia": "Mi"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 6",
+                "color": "#14C000",
+                "horario": "14:20-15:10",
+                "dia": "Ju"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "14:20-15:10",
+                "dia": "Vi"
+            }
+        ],
+        "1E-IRD": [
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab1",
+                "color": "#FF9900",
+                "horario": "7:00-7:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab1",
+                "color": "#FF9900",
+                "horario": "7:00-7:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-106",
+                "color": "#EF0B6B",
+                "horario": "7:00-7:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab Elect",
+                "color": "#FF9900",
+                "horario": "7:00-7:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-106",
+                "color": "#EF0B6B",
+                "horario": "7:00-7:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "DESARROLLO DE HABILIDADES DEL PENSAMIENTO L\u00d3GICO",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Lab1",
+                "color": "#57293F",
+                "horario": "7:50-8:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab1",
+                "color": "#FF9900",
+                "horario": "7:50-8:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-106",
+                "color": "#EF0B6B",
+                "horario": "7:50-8:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab Elect",
+                "color": "#FF9900",
+                "horario": "7:50-8:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-106",
+                "color": "#EF0B6B",
+                "horario": "7:50-8:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-106",
+                "color": "#EF0B6B",
+                "horario": "9:00-9:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Zapata Vargas Martha Adriana",
+                "salon": "Aula C-106",
+                "color": "#95F620",
+                "horario": "9:00-9:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Zapata Vargas Martha Adriana",
+                "salon": "Aula C-106",
+                "color": "#95F620",
+                "horario": "9:00-9:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 4",
+                "color": "#28F8B8",
+                "horario": "9:00-9:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Zapata Vargas Martha Adriana",
+                "salon": "Lab 2",
+                "color": "#95F620",
+                "horario": "9:00-9:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "TUTOR\u00cdAS",
+                "maestro": "Matos Morfin Victor Manuel",
+                "salon": "Aula C-106",
+                "color": "#A0FFFF",
+                "horario": "9:50-10:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Zapata Vargas Martha Adriana",
+                "salon": "Aula C-106",
+                "color": "#95F620",
+                "horario": "9:50-10:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Zapata Vargas Martha Adriana",
+                "salon": "Aula C-106",
+                "color": "#95F620",
+                "horario": "9:50-10:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 4",
+                "color": "#28F8B8",
+                "horario": "9:50-10:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Zapata Vargas Martha Adriana",
+                "salon": "Lab 2",
+                "color": "#95F620",
+                "horario": "9:50-10:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Zapata Vargas Martha Adriana",
+                "salon": "Lab 9",
+                "color": "#95F620",
+                "horario": "11:00-11:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-106",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL I",
+                "maestro": "Quintal Xool Rubi Patricia",
+                "salon": "Aula C-106",
+                "color": "#135D1E",
+                "horario": "11:00-11:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-106",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "DESARROLLO DE HABILIDADES DEL PENSAMIENTO L\u00d3GICO",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Aula C-106",
+                "color": "#57293F",
+                "horario": "11:00-11:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 9",
+                "color": "#28F8B8",
+                "horario": "11:50-12:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-106",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL I",
+                "maestro": "Quintal Xool Rubi Patricia",
+                "salon": "Aula C-106",
+                "color": "#135D1E",
+                "horario": "11:50-12:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-106",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "DESARROLLO DE HABILIDADES DEL PENSAMIENTO L\u00d3GICO",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Aula C-106",
+                "color": "#57293F",
+                "horario": "11:50-12:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-106",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Lu"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Zapata Vargas Martha Adriana",
+                "salon": "Lab 9",
+                "color": "#95F620",
+                "horario": "12:40-13:30",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-106",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Mi"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Zapata Vargas Martha Adriana",
+                "salon": "Aula C-106",
+                "color": "#95F620",
+                "horario": "12:40-13:30",
+                "dia": "Ju"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab1",
+                "color": "#28F8B8",
+                "horario": "12:40-13:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-106",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Zapata Vargas Martha Adriana",
+                "salon": "Lab 9",
+                "color": "#95F620",
+                "horario": "13:30-14:20",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-106",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Zapata Vargas Martha Adriana",
+                "salon": "Aula C-106",
+                "color": "#95F620",
+                "horario": "13:30-14:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab1",
+                "color": "#28F8B8",
+                "horario": "13:30-14:20",
+                "dia": "Vi"
+            }
+        ],
+        "1F-IRD": [
             {
                 "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
                 "maestro": "Quintal Xool Rubi Patricia",
@@ -322,7 +1972,973 @@
                 "dia": "Vi"
             }
         ],
-        "4C": [
+        "1G-EVND": [
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Aula C-114",
+                "color": "#003300",
+                "horario": "7:00-7:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Martin Ruiz Mario Jos\u00e9",
+                "salon": "Aula C-114",
+                "color": "#09C1CB",
+                "horario": "7:00-7:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "TUTOR\u00cdAS",
+                "maestro": "Matos Morfin Victor Manuel",
+                "salon": "Aula C-103",
+                "color": "#A0FFFF",
+                "horario": "7:00-7:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Martin Ruiz Mario Jos\u00e9",
+                "salon": "Aula C-114",
+                "color": "#09C1CB",
+                "horario": "7:00-7:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Marrufo Mu\u00f1oz Jorge Elias",
+                "salon": "Lab 3",
+                "color": "#8EF385",
+                "horario": "7:00-7:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Martin Flores Juan Manuel",
+                "salon": "Aula C-114",
+                "color": "#FAD86A",
+                "horario": "7:50-8:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Martin Ruiz Mario Jos\u00e9",
+                "salon": "Aula C-114",
+                "color": "#09C1CB",
+                "horario": "7:50-8:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "DESARROLLO DE HABILIDADES DEL PENSAMIENTO L\u00d3GICO",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Aula C-114",
+                "color": "#FF4200",
+                "horario": "7:50-8:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Martin Ruiz Mario Jos\u00e9",
+                "salon": "Aula C-114",
+                "color": "#09C1CB",
+                "horario": "7:50-8:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Marrufo Mu\u00f1oz Jorge Elias",
+                "salon": "Lab 3",
+                "color": "#8EF385",
+                "horario": "7:50-8:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Martin Flores Juan Manuel",
+                "salon": "Aula C-114",
+                "color": "#FAD86A",
+                "horario": "9:00-9:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 8",
+                "color": "#003300",
+                "horario": "9:00-9:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Morales Carbajal Yeni",
+                "salon": "Lab 8",
+                "color": "#965197",
+                "horario": "9:00-9:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL I",
+                "maestro": "Quintal Xool Rubi Patricia",
+                "salon": "Aula C-114",
+                "color": "#135D1E",
+                "horario": "9:00-9:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Marrufo Mu\u00f1oz Jorge Elias",
+                "salon": "Lab 3",
+                "color": "#8EF385",
+                "horario": "9:00-9:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Martin Flores Juan Manuel",
+                "salon": "Aula C-114",
+                "color": "#FAD86A",
+                "horario": "9:50-10:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 8",
+                "color": "#003300",
+                "horario": "9:50-10:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Morales Carbajal Yeni",
+                "salon": "Lab 8",
+                "color": "#965197",
+                "horario": "9:50-10:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL I",
+                "maestro": "Quintal Xool Rubi Patricia",
+                "salon": "Aula C-114",
+                "color": "#135D1E",
+                "horario": "9:50-10:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Morales Carbajal Yeni",
+                "salon": "Lab 3",
+                "color": "#965197",
+                "horario": "9:50-10:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Morales Carbajal Yeni",
+                "salon": "Lab 8",
+                "color": "#965197",
+                "horario": "11:00-11:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-114",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Marrufo Mu\u00f1oz Jorge Elias",
+                "salon": "Lab 3",
+                "color": "#8EF385",
+                "horario": "11:00-11:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-114",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Martin Ruiz Mario Jos\u00e9",
+                "salon": "Aula C-114",
+                "color": "#09C1CB",
+                "horario": "11:00-11:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "FUNDAMENTOS DE REDES",
+                "maestro": "Morales Carbajal Yeni",
+                "salon": "Lab 8",
+                "color": "#965197",
+                "horario": "11:50-12:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-114",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "METODOLOG\u00cdA DE LA PROGRAMACI\u00d3N",
+                "maestro": "Marrufo Mu\u00f1oz Jorge Elias",
+                "salon": "Lab 3",
+                "color": "#8EF385",
+                "horario": "11:50-12:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-114",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "\u00c1LGEBRA LINEAL",
+                "maestro": "Martin Ruiz Mario Jos\u00e9",
+                "salon": "Aula C-114",
+                "color": "#09C1CB",
+                "horario": "11:50-12:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-114",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Lu"
+            },
+            {
+                "materia": "DESARROLLO DE HABILIDADES DEL PENSAMIENTO L\u00d3GICO",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Aula C-103",
+                "color": "#FF4200",
+                "horario": "12:40-13:30",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-114",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Mi"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Martin Flores Juan Manuel",
+                "salon": "Aula C-114",
+                "color": "#FAD86A",
+                "horario": "12:40-13:30",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 8",
+                "color": "#003300",
+                "horario": "12:40-13:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-114",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "DESARROLLO DE HABILIDADES DEL PENSAMIENTO L\u00d3GICO",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Aula C-103",
+                "color": "#FF4200",
+                "horario": "13:30-14:20",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S I",
+                "maestro": "",
+                "salon": "Aula C-114",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "EXPRESI\u00d3N ORAL Y ESCRITA I",
+                "maestro": "Martin Flores Juan Manuel",
+                "salon": "Aula C-114",
+                "color": "#FAD86A",
+                "horario": "13:30-14:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FUNDAMENTOS DE TI",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 8",
+                "color": "#003300",
+                "horario": "13:30-14:20",
+                "dia": "Vi"
+            }
+        ],
+        "4A-DSM": [
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL IV",
+                "maestro": "Martin Flores Juan Manuel",
+                "salon": "Aula C-102",
+                "color": "#FAD86A",
+                "horario": "7:00-7:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "DISE\u00d1O DE APPS",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 5",
+                "color": "#B180B7",
+                "horario": "7:00-7:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "PRINCIPIOS PARA IOT",
+                "maestro": "Kao Poot Luis Javier",
+                "salon": "Lab 6",
+                "color": "#99FF33",
+                "horario": "7:00-7:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL IV",
+                "maestro": "Martin Flores Juan Manuel",
+                "salon": "Aula C-103",
+                "color": "#FAD86A",
+                "horario": "7:00-7:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "EVALUACI\u00d3N Y MEJORA PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab 5",
+                "color": "#3333CC",
+                "horario": "7:00-7:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "EST\u00c1NDARES Y M\u00c9TRICAS PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Lab 2",
+                "color": "#C014FF",
+                "horario": "7:50-8:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "DISE\u00d1O DE APPS",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 5",
+                "color": "#B180B7",
+                "horario": "7:50-8:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "PRINCIPIOS PARA IOT",
+                "maestro": "Kao Poot Luis Javier",
+                "salon": "Lab 6",
+                "color": "#99FF33",
+                "horario": "7:50-8:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL IV",
+                "maestro": "Martin Flores Juan Manuel",
+                "salon": "Aula C-103",
+                "color": "#FAD86A",
+                "horario": "7:50-8:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "EVALUACI\u00d3N Y MEJORA PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab 5",
+                "color": "#3333CC",
+                "horario": "7:50-8:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab 2",
+                "color": "#009933",
+                "horario": "9:00-9:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "ESTRUCTURA DE DATOS APLICADAS",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 9",
+                "color": "#14C000",
+                "horario": "9:00-9:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "DISE\u00d1O DE APPS",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 4",
+                "color": "#B180B7",
+                "horario": "9:00-9:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab 8",
+                "color": "#009933",
+                "horario": "9:00-9:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "EST\u00c1NDARES Y M\u00c9TRICAS PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Lab 4",
+                "color": "#C014FF",
+                "horario": "9:00-9:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab 2",
+                "color": "#009933",
+                "horario": "9:50-10:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "ESTRUCTURA DE DATOS APLICADAS",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 9",
+                "color": "#14C000",
+                "horario": "9:50-10:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "DISE\u00d1O DE APPS",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 4",
+                "color": "#B180B7",
+                "horario": "9:50-10:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab 8",
+                "color": "#009933",
+                "horario": "9:50-10:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "EST\u00c1NDARES Y M\u00c9TRICAS PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Lab 4",
+                "color": "#C014FF",
+                "horario": "9:50-10:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "EVALUACI\u00d3N Y MEJORA PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab 2",
+                "color": "#3333CC",
+                "horario": "11:00-11:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 2",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "ESTRUCTURA DE DATOS APLICADAS",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 8",
+                "color": "#14C000",
+                "horario": "11:00-11:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 2",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "ESTRUCTURA DE DATOS APLICADAS",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 2",
+                "color": "#14C000",
+                "horario": "11:00-11:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "EVALUACI\u00d3N Y MEJORA PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab 2",
+                "color": "#3333CC",
+                "horario": "11:50-12:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 2",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "ESTRUCTURA DE DATOS APLICADAS",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 8",
+                "color": "#14C000",
+                "horario": "11:50-12:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 2",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "ESTRUCTURA DE DATOS APLICADAS",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 2",
+                "color": "#14C000",
+                "horario": "11:50-12:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 2",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Lu"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab1",
+                "color": "#009933",
+                "horario": "12:40-13:30",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 2",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Mi"
+            },
+            {
+                "materia": "PRINCIPIOS PARA IOT",
+                "maestro": "Kao Poot Luis Javier",
+                "salon": "Lab 5",
+                "color": "#99FF33",
+                "horario": "12:40-13:30",
+                "dia": "Ju"
+            },
+            {
+                "materia": "TUTOR\u00cdAS",
+                "maestro": "Uc Miam Aureny Magaly",
+                "salon": "Aula C-102",
+                "color": "#A0FFFF",
+                "horario": "12:40-13:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 2",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab1",
+                "color": "#009933",
+                "horario": "13:30-14:20",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 2",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "PRINCIPIOS PARA IOT",
+                "maestro": "Kao Poot Luis Javier",
+                "salon": "Lab 5",
+                "color": "#99FF33",
+                "horario": "13:30-14:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Aula C-102",
+                "color": "#009933",
+                "horario": "13:30-14:20",
+                "dia": "Vi"
+            }
+        ],
+        "4B-DSM": [
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL IV",
+                "maestro": "Rodr\u00edguez Mex Cristina  Del Carmen",
+                "salon": "Aula C-103",
+                "color": "#032ECD",
+                "horario": "7:00-7:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "ESTRUCTURA DE DATOS APLICADAS",
+                "maestro": "Moreno Caballero Eduardo Jes\u00fas Miguel",
+                "salon": "Lab 2",
+                "color": "#C71BC1",
+                "horario": "7:00-7:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "ESTRUCTURA DE DATOS APLICADAS",
+                "maestro": "Moreno Caballero Eduardo Jes\u00fas Miguel",
+                "salon": "Lab 2",
+                "color": "#C71BC1",
+                "horario": "7:00-7:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL IV",
+                "maestro": "Rodr\u00edguez Mex Cristina  Del Carmen",
+                "salon": "Aula C-104",
+                "color": "#032ECD",
+                "horario": "7:00-7:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "ESTRUCTURA DE DATOS APLICADAS",
+                "maestro": "Moreno Caballero Eduardo Jes\u00fas Miguel",
+                "salon": "Lab 6",
+                "color": "#C71BC1",
+                "horario": "7:00-7:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab 4",
+                "color": "#009933",
+                "horario": "7:50-8:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "ESTRUCTURA DE DATOS APLICADAS",
+                "maestro": "Moreno Caballero Eduardo Jes\u00fas Miguel",
+                "salon": "Lab 2",
+                "color": "#C71BC1",
+                "horario": "7:50-8:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "ESTRUCTURA DE DATOS APLICADAS",
+                "maestro": "Moreno Caballero Eduardo Jes\u00fas Miguel",
+                "salon": "Lab 2",
+                "color": "#C71BC1",
+                "horario": "7:50-8:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL IV",
+                "maestro": "Rodr\u00edguez Mex Cristina  Del Carmen",
+                "salon": "Aula C-104",
+                "color": "#032ECD",
+                "horario": "7:50-8:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "ESTRUCTURA DE DATOS APLICADAS",
+                "maestro": "Moreno Caballero Eduardo Jes\u00fas Miguel",
+                "salon": "Lab 6",
+                "color": "#C71BC1",
+                "horario": "7:50-8:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "EST\u00c1NDARES Y M\u00c9TRICAS PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Lab 8",
+                "color": "#C014FF",
+                "horario": "9:00-9:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab1",
+                "color": "#009933",
+                "horario": "9:00-9:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "EVALUACI\u00d3N Y MEJORA PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab 7",
+                "color": "#3333CC",
+                "horario": "9:00-9:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "EVALUACI\u00d3N Y MEJORA PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab 6",
+                "color": "#3333CC",
+                "horario": "9:00-9:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "PRINCIPIOS PARA IOT",
+                "maestro": "Loeza Lugo Fernando de Jesus",
+                "salon": "Aula C-114",
+                "color": "#26C9DB",
+                "horario": "9:00-9:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "EST\u00c1NDARES Y M\u00c9TRICAS PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Lab 8",
+                "color": "#C014FF",
+                "horario": "9:50-10:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab1",
+                "color": "#009933",
+                "horario": "9:50-10:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "EVALUACI\u00d3N Y MEJORA PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab 7",
+                "color": "#3333CC",
+                "horario": "9:50-10:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "EVALUACI\u00d3N Y MEJORA PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab 6",
+                "color": "#3333CC",
+                "horario": "9:50-10:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "PRINCIPIOS PARA IOT",
+                "maestro": "Loeza Lugo Fernando de Jesus",
+                "salon": "Aula C-114",
+                "color": "#26C9DB",
+                "horario": "9:50-10:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "DISE\u00d1O DE APPS",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 6",
+                "color": "#B180B7",
+                "horario": "11:00-11:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 4",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab 4",
+                "color": "#009933",
+                "horario": "11:00-11:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 4",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "TUTOR\u00cdAS",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Lab 4",
+                "color": "#C014FF",
+                "horario": "11:00-11:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "DISE\u00d1O DE APPS",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 6",
+                "color": "#B180B7",
+                "horario": "11:50-12:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 4",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab 4",
+                "color": "#009933",
+                "horario": "11:50-12:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 4",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "EST\u00c1NDARES Y M\u00c9TRICAS PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Lab 4",
+                "color": "#C014FF",
+                "horario": "11:50-12:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 4",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Lu"
+            },
+            {
+                "materia": "PRINCIPIOS PARA IOT",
+                "maestro": "Loeza Lugo Fernando de Jesus",
+                "salon": "Aula C-114",
+                "color": "#26C9DB",
+                "horario": "12:40-13:30",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 4",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Mi"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab 4",
+                "color": "#009933",
+                "horario": "12:40-13:30",
+                "dia": "Ju"
+            },
+            {
+                "materia": "DISE\u00d1O DE APPS",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 4",
+                "color": "#B180B7",
+                "horario": "12:40-13:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 4",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "PRINCIPIOS PARA IOT",
+                "maestro": "Loeza Lugo Fernando de Jesus",
+                "salon": "Aula C-114",
+                "color": "#26C9DB",
+                "horario": "13:30-14:20",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 4",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab 4",
+                "color": "#009933",
+                "horario": "13:30-14:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "DISE\u00d1O DE APPS",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 4",
+                "color": "#B180B7",
+                "horario": "13:30-14:20",
+                "dia": "Vi"
+            }
+        ],
+        "4C-DSM": [
             {
                 "materia": "PRINCIPIOS PARA IOT",
                 "maestro": "Kao Poot Luis Javier",
@@ -644,7 +3260,1053 @@
                 "dia": "Vi"
             }
         ],
-        "4A": [
+        "4D-DSM": [
+            {
+                "materia": "ESTRUCTURA DE DATOS APLICADAS",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 5",
+                "color": "#14C000",
+                "horario": "7:00-7:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "EVALUACI\u00d3N Y MEJORA PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab 8",
+                "color": "#3333CC",
+                "horario": "7:00-7:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "ESTRUCTURA DE DATOS APLICADAS",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 8",
+                "color": "#14C000",
+                "horario": "7:00-7:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "EST\u00c1NDARES Y M\u00c9TRICAS PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Lab 5",
+                "color": "#FF4200",
+                "horario": "7:00-7:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "7:00-7:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "ESTRUCTURA DE DATOS APLICADAS",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 5",
+                "color": "#14C000",
+                "horario": "7:50-8:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "EVALUACI\u00d3N Y MEJORA PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab 8",
+                "color": "#3333CC",
+                "horario": "7:50-8:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "ESTRUCTURA DE DATOS APLICADAS",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 8",
+                "color": "#14C000",
+                "horario": "7:50-8:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "EST\u00c1NDARES Y M\u00c9TRICAS PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Lab 5",
+                "color": "#FF4200",
+                "horario": "7:50-8:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "EST\u00c1NDARES Y M\u00c9TRICAS PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Lab 4",
+                "color": "#FF4200",
+                "horario": "7:50-8:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 9",
+                "color": "#B180B7",
+                "horario": "9:00-9:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "PRINCIPIOS PARA IOT",
+                "maestro": "Loeza Lugo Fernando de Jesus",
+                "salon": "Lab 5",
+                "color": "#26C9DB",
+                "horario": "9:00-9:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "DISE\u00d1O DE APPS",
+                "maestro": "Uc Miam Aureny Magaly",
+                "salon": "Lab 5",
+                "color": "#A0FFFF",
+                "horario": "9:00-9:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "ESTRUCTURA DE DATOS APLICADAS",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 7",
+                "color": "#14C000",
+                "horario": "9:00-9:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "DISE\u00d1O DE APPS",
+                "maestro": "Uc Miam Aureny Magaly",
+                "salon": "Lab1",
+                "color": "#A0FFFF",
+                "horario": "9:00-9:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 9",
+                "color": "#B180B7",
+                "horario": "9:50-10:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "PRINCIPIOS PARA IOT",
+                "maestro": "Loeza Lugo Fernando de Jesus",
+                "salon": "Lab 5",
+                "color": "#26C9DB",
+                "horario": "9:50-10:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "DISE\u00d1O DE APPS",
+                "maestro": "Uc Miam Aureny Magaly",
+                "salon": "Lab 5",
+                "color": "#A0FFFF",
+                "horario": "9:50-10:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "ESTRUCTURA DE DATOS APLICADAS",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 7",
+                "color": "#14C000",
+                "horario": "9:50-10:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "DISE\u00d1O DE APPS",
+                "maestro": "Uc Miam Aureny Magaly",
+                "salon": "Lab1",
+                "color": "#A0FFFF",
+                "horario": "9:50-10:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "PRINCIPIOS PARA IOT",
+                "maestro": "Loeza Lugo Fernando de Jesus",
+                "salon": "Lab Elect",
+                "color": "#26C9DB",
+                "horario": "11:00-11:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 6",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL IV",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Aula C-103",
+                "color": "#C014FF",
+                "horario": "11:00-11:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 6",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 6",
+                "color": "#B180B7",
+                "horario": "11:00-11:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "PRINCIPIOS PARA IOT",
+                "maestro": "Loeza Lugo Fernando de Jesus",
+                "salon": "Lab Elect",
+                "color": "#26C9DB",
+                "horario": "11:50-12:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 6",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 6",
+                "color": "#B180B7",
+                "horario": "11:50-12:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 6",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 6",
+                "color": "#B180B7",
+                "horario": "11:50-12:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 6",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Lu"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 6",
+                "color": "#B180B7",
+                "horario": "12:40-13:30",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 6",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL IV",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Aula C-103",
+                "color": "#C014FF",
+                "horario": "12:40-13:30",
+                "dia": "Ju"
+            },
+            {
+                "materia": "EVALUACI\u00d3N Y MEJORA PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab 6",
+                "color": "#3333CC",
+                "horario": "12:40-13:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 6",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 6",
+                "color": "#B180B7",
+                "horario": "13:30-14:20",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 6",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL IV",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Aula C-103",
+                "color": "#C014FF",
+                "horario": "13:30-14:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "EVALUACI\u00d3N Y MEJORA PARA EL DESARROLLO DE SOFTWARE",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab 6",
+                "color": "#3333CC",
+                "horario": "13:30-14:20",
+                "dia": "Vi"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "14:20-15:10",
+                "dia": "Lu"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "14:20-15:10",
+                "dia": "Ma"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "14:20-15:10",
+                "dia": "Mi"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "14:20-15:10",
+                "dia": "Ju"
+            },
+            {
+                "materia": "TUTOR\u00cdAS",
+                "maestro": "Canto Bonilla Carlos Alberto",
+                "salon": "Lab 6",
+                "color": "#C014FF",
+                "horario": "14:20-15:10",
+                "dia": "Vi"
+            }
+        ],
+        "4A-IRD": [
+            {
+                "materia": "ELECTR\u00d3NICA PARA IDC",
+                "maestro": "Palma Gamboa Oscar Antonio",
+                "salon": "Lab Elect",
+                "color": "#914A67",
+                "horario": "7:00-7:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "7:00-7:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "ELECTR\u00d3NICA PARA IDC",
+                "maestro": "Palma Gamboa Oscar Antonio",
+                "salon": "Lab Elect",
+                "color": "#914A67",
+                "horario": "7:00-7:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE REDES",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 9",
+                "color": "#B180B7",
+                "horario": "7:00-7:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE REDES",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 9",
+                "color": "#B180B7",
+                "horario": "7:00-7:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "ELECTR\u00d3NICA PARA IDC",
+                "maestro": "Palma Gamboa Oscar Antonio",
+                "salon": "Lab Elect",
+                "color": "#914A67",
+                "horario": "7:50-8:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "7:50-8:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "ELECTR\u00d3NICA PARA IDC",
+                "maestro": "Palma Gamboa Oscar Antonio",
+                "salon": "Lab Elect",
+                "color": "#914A67",
+                "horario": "7:50-8:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE REDES",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 9",
+                "color": "#B180B7",
+                "horario": "7:50-8:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE REDES",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 9",
+                "color": "#B180B7",
+                "horario": "7:50-8:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Lab1",
+                "color": "#57293F",
+                "horario": "9:00-9:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "CONEXI\u00d3N DE REDES WAN",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Lab Serv",
+                "color": "#57293F",
+                "horario": "9:00-9:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "CONEXI\u00d3N DE REDES WAN",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Lab Serv",
+                "color": "#57293F",
+                "horario": "9:00-9:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Aula C-112",
+                "color": "#57293F",
+                "horario": "9:00-9:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL IV",
+                "maestro": "Quintal Xool Rubi Patricia",
+                "salon": "Aula C-102",
+                "color": "#135D1E",
+                "horario": "9:00-9:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Lab1",
+                "color": "#57293F",
+                "horario": "9:50-10:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "CONEXI\u00d3N DE REDES WAN",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Lab Serv",
+                "color": "#57293F",
+                "horario": "9:50-10:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "CONEXI\u00d3N DE REDES WAN",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Lab Serv",
+                "color": "#57293F",
+                "horario": "9:50-10:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Aula C-112",
+                "color": "#57293F",
+                "horario": "9:50-10:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL IV",
+                "maestro": "Quintal Xool Rubi Patricia",
+                "salon": "Aula C-102",
+                "color": "#135D1E",
+                "horario": "9:50-10:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "TUTOR\u00cdAS",
+                "maestro": "Kao Poot Luis Javier",
+                "salon": "Aula C-103",
+                "color": "#99FF33",
+                "horario": "11:00-11:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 9",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE REDES",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 9",
+                "color": "#B180B7",
+                "horario": "11:00-11:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 9",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "ELECTR\u00d3NICA PARA IDC",
+                "maestro": "Palma Gamboa Oscar Antonio",
+                "salon": "Lab Elect",
+                "color": "#914A67",
+                "horario": "11:00-11:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL IV",
+                "maestro": "Quintal Xool Rubi Patricia",
+                "salon": "Aula C-103",
+                "color": "#135D1E",
+                "horario": "11:50-12:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 9",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Lab 9",
+                "color": "#57293F",
+                "horario": "11:50-12:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 9",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "ELECTR\u00d3NICA PARA IDC",
+                "maestro": "Palma Gamboa Oscar Antonio",
+                "salon": "Lab Elect",
+                "color": "#914A67",
+                "horario": "11:50-12:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 9",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Lu"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DE SERVIDORES I",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab Serv / Lab Elect",
+                "color": "#FF9900",
+                "horario": "12:40-13:30",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 9",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Mi"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DE SERVIDORES I",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab Serv / Lab Elect",
+                "color": "#FF9900",
+                "horario": "12:40-13:30",
+                "dia": "Ju"
+            },
+            {
+                "materia": "CONEXI\u00d3N DE REDES WAN",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Lab Serv",
+                "color": "#57293F",
+                "horario": "12:40-13:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 9",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DE SERVIDORES I",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab Serv / Lab Elect",
+                "color": "#FF9900",
+                "horario": "13:30-14:20",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab 9",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DE SERVIDORES I",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab Serv / Lab Elect",
+                "color": "#FF9900",
+                "horario": "13:30-14:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "CONEXI\u00d3N DE REDES WAN",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Lab Serv",
+                "color": "#57293F",
+                "horario": "13:30-14:20",
+                "dia": "Vi"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DE SERVIDORES I",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab Serv / Lab 9",
+                "color": "#FF9900",
+                "horario": "14:20-15:10",
+                "dia": "Lu"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "14:20-15:10",
+                "dia": "Ma"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "14:20-15:10",
+                "dia": "Mi"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DE SERVIDORES I",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab Serv / Lab 9",
+                "color": "#FF9900",
+                "horario": "14:20-15:10",
+                "dia": "Ju"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "14:20-15:10",
+                "dia": "Vi"
+            }
+        ],
+        "4B-IRD": [
+            {
+                "materia": "PROGRAMACI\u00d3N DE REDES",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 9",
+                "color": "#B180B7",
+                "horario": "7:00-7:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "CONEXI\u00d3N DE REDES WAN",
+                "maestro": "Ceballos Hernandez Martha Rocio",
+                "salon": "Lab 9",
+                "color": "#666666",
+                "horario": "7:00-7:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE REDES",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 9",
+                "color": "#B180B7",
+                "horario": "7:00-7:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL IV",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-106",
+                "color": "#EF0B6B",
+                "horario": "7:00-7:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "CONEXI\u00d3N DE REDES WAN",
+                "maestro": "Ceballos Hernandez Martha Rocio",
+                "salon": "Lab Elect",
+                "color": "#666666",
+                "horario": "7:00-7:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE REDES",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 9",
+                "color": "#B180B7",
+                "horario": "7:50-8:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "CONEXI\u00d3N DE REDES WAN",
+                "maestro": "Ceballos Hernandez Martha Rocio",
+                "salon": "Lab 9",
+                "color": "#666666",
+                "horario": "7:50-8:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Aula C-104",
+                "color": "#57293F",
+                "horario": "7:50-8:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "TUTOR\u00cdAS",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Aula C-106",
+                "color": "#57293F",
+                "horario": "7:50-8:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "CONEXI\u00d3N DE REDES WAN",
+                "maestro": "Ceballos Hernandez Martha Rocio",
+                "salon": "Lab Elect",
+                "color": "#666666",
+                "horario": "7:50-8:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DE SERVIDORES I",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab Serv / Lab Elect",
+                "color": "#FF9900",
+                "horario": "9:00-9:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "ELECTR\u00d3NICA PARA IDC",
+                "maestro": "Kao Poot Luis Javier",
+                "salon": "Lab Elect",
+                "color": "#99FF33",
+                "horario": "9:00-9:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "ELECTR\u00d3NICA PARA IDC",
+                "maestro": "Kao Poot Luis Javier",
+                "salon": "Lab Elect",
+                "color": "#99FF33",
+                "horario": "9:00-9:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "CONEXI\u00d3N DE REDES WAN",
+                "maestro": "Ceballos Hernandez Martha Rocio",
+                "salon": "Lab Elect",
+                "color": "#666666",
+                "horario": "9:00-9:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DE SERVIDORES I",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab Serv / Lab Elect",
+                "color": "#FF9900",
+                "horario": "9:00-9:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DE SERVIDORES I",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab Serv / Lab Elect",
+                "color": "#FF9900",
+                "horario": "9:50-10:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "ELECTR\u00d3NICA PARA IDC",
+                "maestro": "Kao Poot Luis Javier",
+                "salon": "Lab Elect",
+                "color": "#99FF33",
+                "horario": "9:50-10:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "ELECTR\u00d3NICA PARA IDC",
+                "maestro": "Kao Poot Luis Javier",
+                "salon": "Lab Elect",
+                "color": "#99FF33",
+                "horario": "9:50-10:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "CONEXI\u00d3N DE REDES WAN",
+                "maestro": "Ceballos Hernandez Martha Rocio",
+                "salon": "Lab Elect",
+                "color": "#666666",
+                "horario": "9:50-10:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DE SERVIDORES I",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab Serv / Lab Elect",
+                "color": "#FF9900",
+                "horario": "9:50-10:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Aula C-106",
+                "color": "#57293F",
+                "horario": "11:00-11:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab1",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DE SERVIDORES I",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab Serv / Lab Elect",
+                "color": "#FF9900",
+                "horario": "11:00-11:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab1",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL IV",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-104",
+                "color": "#EF0B6B",
+                "horario": "11:00-11:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Aula C-106",
+                "color": "#57293F",
+                "horario": "11:50-12:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab1",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DE SERVIDORES I",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab Serv / Lab Elect",
+                "color": "#FF9900",
+                "horario": "11:50-12:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab1",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL IV",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-104",
+                "color": "#EF0B6B",
+                "horario": "11:50-12:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab1",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Lu"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Lab 7",
+                "color": "#57293F",
+                "horario": "12:40-13:30",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab1",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Mi"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE REDES",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 9",
+                "color": "#B180B7",
+                "horario": "12:40-13:30",
+                "dia": "Ju"
+            },
+            {
+                "materia": "ELECTR\u00d3NICA PARA IDC",
+                "maestro": "Kao Poot Luis Javier",
+                "salon": "Lab Elect",
+                "color": "#99FF33",
+                "horario": "12:40-13:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab1",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Lara Martin Luisa Margarita",
+                "salon": "Lab 7",
+                "color": "#57293F",
+                "horario": "13:30-14:20",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S IV",
+                "maestro": "",
+                "salon": "Lab1",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE REDES",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab 9",
+                "color": "#B180B7",
+                "horario": "13:30-14:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "ELECTR\u00d3NICA PARA IDC",
+                "maestro": "Kao Poot Luis Javier",
+                "salon": "Lab Elect",
+                "color": "#99FF33",
+                "horario": "13:30-14:20",
+                "dia": "Vi"
+            }
+        ],
+        "4A-EVND": [
             {
                 "materia": "FRAMEWORKS DE DESARROLLO WEB",
                 "maestro": "Marrufo Mu\u00f1oz Jorge Elias",
@@ -966,7 +4628,249 @@
                 "dia": "Vi"
             }
         ],
-        "7B": [
+        "7A-ING": [
+            {
+                "materia": "INGLES VI",
+                "maestro": "",
+                "salon": "Aula C-112",
+                "color": "#fff",
+                "horario": "16:00-16:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "OPTATIVA I-ELECTRONICA",
+                "maestro": "Palma Gamboa Oscar Antonio",
+                "salon": "Lab Elect",
+                "color": "#914A67",
+                "horario": "16:00-16:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGLES VI",
+                "maestro": "",
+                "salon": "Aula C-116",
+                "color": "#fff",
+                "horario": "16:00-16:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGENIER\u00cdA ECON\u00d3MICA",
+                "maestro": "Quijano Aban Victor Manuel",
+                "salon": "Lab 5",
+                "color": "#ADA349",
+                "horario": "16:00-16:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE APLICACIONES",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 2",
+                "color": "#28F8B8",
+                "horario": "16:00-16:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGLES VI",
+                "maestro": "",
+                "salon": "Aula C-112",
+                "color": "#fff",
+                "horario": "16:50-17:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE APLICACIONES",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 8",
+                "color": "#28F8B8",
+                "horario": "16:50-17:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGLES VI",
+                "maestro": "",
+                "salon": "Aula C-116",
+                "color": "#fff",
+                "horario": "16:50-17:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGENIER\u00cdA ECON\u00d3MICA",
+                "maestro": "Quijano Aban Victor Manuel",
+                "salon": "Lab 5",
+                "color": "#ADA349",
+                "horario": "16:50-17:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE APLICACIONES",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 2",
+                "color": "#28F8B8",
+                "horario": "16:50-17:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "MATEM\u00c1TICAS PARA TI",
+                "maestro": "Yahaira del Rosario Sozaya Chan",
+                "salon": "Lab 5",
+                "color": "#0000FF",
+                "horario": "17:40-18:30",
+                "dia": "Lu"
+            },
+            {
+                "materia": "MODELADO DE PROCESOS DE NEGOCIOS",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Lab 5",
+                "color": "#FF4200",
+                "horario": "17:40-18:30",
+                "dia": "Ma"
+            },
+            {
+                "materia": "MATEM\u00c1TICAS PARA TI",
+                "maestro": "Yahaira del Rosario Sozaya Chan",
+                "salon": "Aula C-114",
+                "color": "#0000FF",
+                "horario": "17:40-18:30",
+                "dia": "Mi"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE APLICACIONES",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 8",
+                "color": "#28F8B8",
+                "horario": "17:40-18:30",
+                "dia": "Ju"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "17:40-18:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "MATEM\u00c1TICAS PARA TI",
+                "maestro": "Yahaira del Rosario Sozaya Chan",
+                "salon": "Lab 5",
+                "color": "#0000FF",
+                "horario": "18:30-19:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "MODELADO DE PROCESOS DE NEGOCIOS",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Lab 5",
+                "color": "#FF4200",
+                "horario": "18:30-19:20",
+                "dia": "Ma"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DEL TIEMPO",
+                "maestro": "Acosta Ruz Karla  Patricia",
+                "salon": "Aula C-102",
+                "color": "#FF8080",
+                "horario": "18:30-19:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE APLICACIONES",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 8",
+                "color": "#28F8B8",
+                "horario": "18:30-19:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "MODELADO DE PROCESOS DE NEGOCIOS",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Lab 5",
+                "color": "#FF4200",
+                "horario": "18:30-19:20",
+                "dia": "Vi"
+            },
+            {
+                "materia": "OPTATIVA I-ELECTRONICA",
+                "maestro": "Palma Gamboa Oscar Antonio",
+                "salon": "Lab Elect",
+                "color": "#914A67",
+                "horario": "19:20-20:10",
+                "dia": "Lu"
+            },
+            {
+                "materia": "TUTOR\u00cdAS",
+                "maestro": "Cervera Evia Gimer Amilcar",
+                "salon": "Aula C-102",
+                "color": "#CCCCFF",
+                "horario": "19:20-20:10",
+                "dia": "Ma"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DEL TIEMPO",
+                "maestro": "Acosta Ruz Karla  Patricia",
+                "salon": "Aula C-102",
+                "color": "#FF8080",
+                "horario": "19:20-20:10",
+                "dia": "Mi"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DEL TIEMPO",
+                "maestro": "Acosta Ruz Karla  Patricia",
+                "salon": "Aula C-102",
+                "color": "#FF8080",
+                "horario": "19:20-20:10",
+                "dia": "Ju"
+            },
+            {
+                "materia": "MATEM\u00c1TICAS PARA TI",
+                "maestro": "Yahaira del Rosario Sozaya Chan",
+                "salon": "Lab 8",
+                "color": "#0000FF",
+                "horario": "19:20-20:10",
+                "dia": "Vi"
+            },
+            {
+                "materia": "OPTATIVA I-ELECTRONICA",
+                "maestro": "Palma Gamboa Oscar Antonio",
+                "salon": "Lab Elect",
+                "color": "#914A67",
+                "horario": "20:10-21:00",
+                "dia": "Lu"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "20:10-21:00",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGENIER\u00cdA ECON\u00d3MICA",
+                "maestro": "Quijano Aban Victor Manuel",
+                "salon": "Lab 2",
+                "color": "#ADA349",
+                "horario": "20:10-21:00",
+                "dia": "Mi"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "20:10-21:00",
+                "dia": "Ju"
+            },
+            {
+                "materia": "MATEM\u00c1TICAS PARA TI",
+                "maestro": "Yahaira del Rosario Sozaya Chan",
+                "salon": "Lab 8",
+                "color": "#0000FF",
+                "horario": "20:10-21:00",
+                "dia": "Vi"
+            }
+        ],
+        "7B-ING": [
             {
                 "materia": "INGLES VI",
                 "maestro": "",
@@ -1208,369 +5112,733 @@
                 "dia": "Vi"
             }
         ],
-        "4D": [
+        "7C-ING": [
             {
-                "materia": "ESTRUCTURA DE DATOS APLICADAS",
-                "maestro": "Canche Caamal Mirian Magaly",
-                "salon": "Lab 5",
-                "color": "#14C000",
-                "horario": "7:00-7:50",
-                "dia": "Lu"
-            },
-            {
-                "materia": "EVALUACI\u00d3N Y MEJORA PARA EL DESARROLLO DE SOFTWARE",
-                "maestro": "Castillo Salazar Laura Angelina",
-                "salon": "Lab 8",
-                "color": "#3333CC",
-                "horario": "7:00-7:50",
-                "dia": "Ma"
-            },
-            {
-                "materia": "ESTRUCTURA DE DATOS APLICADAS",
-                "maestro": "Canche Caamal Mirian Magaly",
-                "salon": "Lab 8",
-                "color": "#14C000",
-                "horario": "7:00-7:50",
-                "dia": "Mi"
-            },
-            {
-                "materia": "EST\u00c1NDARES Y M\u00c9TRICAS PARA EL DESARROLLO DE SOFTWARE",
-                "maestro": "Flores Gongora Roger Armando",
-                "salon": "Lab 5",
-                "color": "#FF4200",
-                "horario": "7:00-7:50",
-                "dia": "Ju"
-            },
-            {
-                "materia": "modulo libre",
+                "materia": "INGLES VI",
                 "maestro": "",
-                "salon": "Lab X",
-                "color": "#FFFFFF",
-                "horario": "7:00-7:50",
-                "dia": "Vi"
-            },
-            {
-                "materia": "ESTRUCTURA DE DATOS APLICADAS",
-                "maestro": "Canche Caamal Mirian Magaly",
-                "salon": "Lab 5",
-                "color": "#14C000",
-                "horario": "7:50-8:40",
+                "salon": "Aula C-104",
+                "color": "#fff",
+                "horario": "16:00-16:50",
                 "dia": "Lu"
             },
             {
-                "materia": "EVALUACI\u00d3N Y MEJORA PARA EL DESARROLLO DE SOFTWARE",
+                "materia": "MATEM\u00c1TICAS PARA TI",
                 "maestro": "Castillo Salazar Laura Angelina",
-                "salon": "Lab 8",
+                "salon": "Aula C-104",
                 "color": "#3333CC",
-                "horario": "7:50-8:40",
+                "horario": "16:00-16:50",
                 "dia": "Ma"
             },
             {
-                "materia": "ESTRUCTURA DE DATOS APLICADAS",
-                "maestro": "Canche Caamal Mirian Magaly",
-                "salon": "Lab 8",
-                "color": "#14C000",
-                "horario": "7:50-8:40",
+                "materia": "INGLES VI",
+                "maestro": "",
+                "salon": "Aula C-104",
+                "color": "#fff",
+                "horario": "16:00-16:50",
                 "dia": "Mi"
             },
             {
-                "materia": "EST\u00c1NDARES Y M\u00c9TRICAS PARA EL DESARROLLO DE SOFTWARE",
-                "maestro": "Flores Gongora Roger Armando",
-                "salon": "Lab 5",
-                "color": "#FF4200",
-                "horario": "7:50-8:40",
-                "dia": "Ju"
-            },
-            {
-                "materia": "EST\u00c1NDARES Y M\u00c9TRICAS PARA EL DESARROLLO DE SOFTWARE",
-                "maestro": "Flores Gongora Roger Armando",
+                "materia": "MATEM\u00c1TICAS PARA TI",
+                "maestro": "Castillo Salazar Laura Angelina",
                 "salon": "Lab 4",
+                "color": "#3333CC",
+                "horario": "16:00-16:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "MATEM\u00c1TICAS PARA TI",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Aula C-102",
+                "color": "#3333CC",
+                "horario": "16:00-16:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGLES VI",
+                "maestro": "",
+                "salon": "Aula C-104",
+                "color": "#fff",
+                "horario": "16:50-17:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "MODELADO DE PROCESOS DE NEGOCIOS",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Lab 5",
                 "color": "#FF4200",
-                "horario": "7:50-8:40",
-                "dia": "Vi"
-            },
-            {
-                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
-                "maestro": "Martinez Gaspar Marisa Concepcion",
-                "salon": "Lab 9",
-                "color": "#B180B7",
-                "horario": "9:00-9:50",
-                "dia": "Lu"
-            },
-            {
-                "materia": "PRINCIPIOS PARA IOT",
-                "maestro": "Loeza Lugo Fernando de Jesus",
-                "salon": "Lab 5",
-                "color": "#26C9DB",
-                "horario": "9:00-9:50",
+                "horario": "16:50-17:40",
                 "dia": "Ma"
             },
             {
-                "materia": "DISE\u00d1O DE APPS",
-                "maestro": "Uc Miam Aureny Magaly",
-                "salon": "Lab 5",
-                "color": "#A0FFFF",
-                "horario": "9:00-9:50",
+                "materia": "INGLES VI",
+                "maestro": "",
+                "salon": "Aula C-104",
+                "color": "#fff",
+                "horario": "16:50-17:40",
                 "dia": "Mi"
             },
             {
-                "materia": "ESTRUCTURA DE DATOS APLICADAS",
-                "maestro": "Canche Caamal Mirian Magaly",
-                "salon": "Lab 7",
-                "color": "#14C000",
-                "horario": "9:00-9:50",
-                "dia": "Ju"
-            },
-            {
-                "materia": "DISE\u00d1O DE APPS",
-                "maestro": "Uc Miam Aureny Magaly",
-                "salon": "Lab1",
-                "color": "#A0FFFF",
-                "horario": "9:00-9:50",
-                "dia": "Vi"
-            },
-            {
-                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
-                "maestro": "Martinez Gaspar Marisa Concepcion",
-                "salon": "Lab 9",
-                "color": "#B180B7",
-                "horario": "9:50-10:40",
-                "dia": "Lu"
-            },
-            {
-                "materia": "PRINCIPIOS PARA IOT",
-                "maestro": "Loeza Lugo Fernando de Jesus",
-                "salon": "Lab 5",
-                "color": "#26C9DB",
-                "horario": "9:50-10:40",
-                "dia": "Ma"
-            },
-            {
-                "materia": "DISE\u00d1O DE APPS",
-                "maestro": "Uc Miam Aureny Magaly",
-                "salon": "Lab 5",
-                "color": "#A0FFFF",
-                "horario": "9:50-10:40",
-                "dia": "Mi"
-            },
-            {
-                "materia": "ESTRUCTURA DE DATOS APLICADAS",
-                "maestro": "Canche Caamal Mirian Magaly",
-                "salon": "Lab 7",
-                "color": "#14C000",
-                "horario": "9:50-10:40",
-                "dia": "Ju"
-            },
-            {
-                "materia": "DISE\u00d1O DE APPS",
-                "maestro": "Uc Miam Aureny Magaly",
-                "salon": "Lab1",
-                "color": "#A0FFFF",
-                "horario": "9:50-10:40",
-                "dia": "Vi"
-            },
-            {
-                "materia": "PRINCIPIOS PARA IOT",
-                "maestro": "Loeza Lugo Fernando de Jesus",
-                "salon": "Lab Elect",
-                "color": "#26C9DB",
-                "horario": "11:00-11:50",
-                "dia": "Lu"
-            },
-            {
-                "materia": "INGL\u00c9S IV",
-                "maestro": "",
-                "salon": "Lab 6",
-                "color": "#fff",
-                "horario": "11:00-11:50",
-                "dia": "Ma"
-            },
-            {
-                "materia": "FORMACI\u00d3N SOCIOCULTURAL IV",
-                "maestro": "Canto Bonilla Carlos Alberto",
-                "salon": "Aula C-103",
-                "color": "#C014FF",
-                "horario": "11:00-11:50",
-                "dia": "Mi"
-            },
-            {
-                "materia": "INGL\u00c9S IV",
-                "maestro": "",
-                "salon": "Lab 6",
-                "color": "#fff",
-                "horario": "11:00-11:50",
-                "dia": "Ju"
-            },
-            {
-                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
-                "maestro": "Martinez Gaspar Marisa Concepcion",
-                "salon": "Lab 6",
-                "color": "#B180B7",
-                "horario": "11:00-11:50",
-                "dia": "Vi"
-            },
-            {
-                "materia": "PRINCIPIOS PARA IOT",
-                "maestro": "Loeza Lugo Fernando de Jesus",
-                "salon": "Lab Elect",
-                "color": "#26C9DB",
-                "horario": "11:50-12:40",
-                "dia": "Lu"
-            },
-            {
-                "materia": "INGL\u00c9S IV",
-                "maestro": "",
-                "salon": "Lab 6",
-                "color": "#fff",
-                "horario": "11:50-12:40",
-                "dia": "Ma"
-            },
-            {
-                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
-                "maestro": "Martinez Gaspar Marisa Concepcion",
-                "salon": "Lab 6",
-                "color": "#B180B7",
-                "horario": "11:50-12:40",
-                "dia": "Mi"
-            },
-            {
-                "materia": "INGL\u00c9S IV",
-                "maestro": "",
-                "salon": "Lab 6",
-                "color": "#fff",
-                "horario": "11:50-12:40",
-                "dia": "Ju"
-            },
-            {
-                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
-                "maestro": "Martinez Gaspar Marisa Concepcion",
-                "salon": "Lab 6",
-                "color": "#B180B7",
-                "horario": "11:50-12:40",
-                "dia": "Vi"
-            },
-            {
-                "materia": "INGL\u00c9S IV",
-                "maestro": "",
-                "salon": "Lab 6",
-                "color": "#fff",
-                "horario": "12:40-13:30",
-                "dia": "Lu"
-            },
-            {
-                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
-                "maestro": "Martinez Gaspar Marisa Concepcion",
-                "salon": "Lab 6",
-                "color": "#B180B7",
-                "horario": "12:40-13:30",
-                "dia": "Ma"
-            },
-            {
-                "materia": "INGL\u00c9S IV",
-                "maestro": "",
-                "salon": "Lab 6",
-                "color": "#fff",
-                "horario": "12:40-13:30",
-                "dia": "Mi"
-            },
-            {
-                "materia": "FORMACI\u00d3N SOCIOCULTURAL IV",
-                "maestro": "Canto Bonilla Carlos Alberto",
-                "salon": "Aula C-103",
-                "color": "#C014FF",
-                "horario": "12:40-13:30",
-                "dia": "Ju"
-            },
-            {
-                "materia": "EVALUACI\u00d3N Y MEJORA PARA EL DESARROLLO DE SOFTWARE",
+                "materia": "MATEM\u00c1TICAS PARA TI",
                 "maestro": "Castillo Salazar Laura Angelina",
-                "salon": "Lab 6",
+                "salon": "Lab 4",
                 "color": "#3333CC",
-                "horario": "12:40-13:30",
-                "dia": "Vi"
-            },
-            {
-                "materia": "INGL\u00c9S IV",
-                "maestro": "",
-                "salon": "Lab 6",
-                "color": "#fff",
-                "horario": "13:30-14:20",
-                "dia": "Lu"
-            },
-            {
-                "materia": "APLICACIONES WEB ORIENTADA A SERVICIOS",
-                "maestro": "Martinez Gaspar Marisa Concepcion",
-                "salon": "Lab 6",
-                "color": "#B180B7",
-                "horario": "13:30-14:20",
-                "dia": "Ma"
-            },
-            {
-                "materia": "INGL\u00c9S IV",
-                "maestro": "",
-                "salon": "Lab 6",
-                "color": "#fff",
-                "horario": "13:30-14:20",
-                "dia": "Mi"
-            },
-            {
-                "materia": "FORMACI\u00d3N SOCIOCULTURAL IV",
-                "maestro": "Canto Bonilla Carlos Alberto",
-                "salon": "Aula C-103",
-                "color": "#C014FF",
-                "horario": "13:30-14:20",
+                "horario": "16:50-17:40",
                 "dia": "Ju"
             },
             {
-                "materia": "EVALUACI\u00d3N Y MEJORA PARA EL DESARROLLO DE SOFTWARE",
+                "materia": "MATEM\u00c1TICAS PARA TI",
                 "maestro": "Castillo Salazar Laura Angelina",
-                "salon": "Lab 6",
+                "salon": "Aula C-102",
                 "color": "#3333CC",
-                "horario": "13:30-14:20",
+                "horario": "16:50-17:40",
                 "dia": "Vi"
             },
             {
-                "materia": "modulo libre",
-                "maestro": "",
-                "salon": "Lab X",
-                "color": "#FFFFFF",
-                "horario": "14:20-15:10",
+                "materia": "OPTATIVA I-ELECTRONICA",
+                "maestro": "Palma Gamboa Oscar Antonio",
+                "salon": "Lab Elect",
+                "color": "#914A67",
+                "horario": "17:40-18:30",
                 "dia": "Lu"
             },
             {
-                "materia": "modulo libre",
-                "maestro": "",
-                "salon": "Lab X",
-                "color": "#FFFFFF",
-                "horario": "14:20-15:10",
+                "materia": "INGENIER\u00cdA ECON\u00d3MICA",
+                "maestro": "Quijano Aban Victor Manuel",
+                "salon": "Lab 2",
+                "color": "#ADA349",
+                "horario": "17:40-18:30",
                 "dia": "Ma"
             },
             {
-                "materia": "modulo libre",
-                "maestro": "",
-                "salon": "Lab X",
-                "color": "#FFFFFF",
-                "horario": "14:20-15:10",
+                "materia": "PROGRAMACI\u00d3N DE APLICACIONES",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 4",
+                "color": "#28F8B8",
+                "horario": "17:40-18:30",
                 "dia": "Mi"
             },
             {
-                "materia": "modulo libre",
-                "maestro": "",
-                "salon": "Lab X",
-                "color": "#FFFFFF",
-                "horario": "14:20-15:10",
+                "materia": "ADMINISTRACI\u00d3N DEL TIEMPO",
+                "maestro": "Acosta Ruz Karla  Patricia",
+                "salon": "Aula C-102",
+                "color": "#FF8080",
+                "horario": "17:40-18:30",
                 "dia": "Ju"
+            },
+            {
+                "materia": "OPTATIVA I-ELECTRONICA",
+                "maestro": "Palma Gamboa Oscar Antonio",
+                "salon": "Lab Elect",
+                "color": "#914A67",
+                "horario": "17:40-18:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE APLICACIONES",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 8",
+                "color": "#28F8B8",
+                "horario": "18:30-19:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGENIER\u00cdA ECON\u00d3MICA",
+                "maestro": "Quijano Aban Victor Manuel",
+                "salon": "Lab 2",
+                "color": "#ADA349",
+                "horario": "18:30-19:20",
+                "dia": "Ma"
             },
             {
                 "materia": "TUTOR\u00cdAS",
-                "maestro": "Canto Bonilla Carlos Alberto",
-                "salon": "Lab 6",
-                "color": "#C014FF",
-                "horario": "14:20-15:10",
+                "maestro": "Uh Perez Oscar Josue",
+                "salon": "Aula C-106",
+                "color": "#675782",
+                "horario": "18:30-19:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DEL TIEMPO",
+                "maestro": "Acosta Ruz Karla  Patricia",
+                "salon": "Aula C-102",
+                "color": "#FF8080",
+                "horario": "18:30-19:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "OPTATIVA I-ELECTRONICA",
+                "maestro": "Palma Gamboa Oscar Antonio",
+                "salon": "Lab Elect",
+                "color": "#914A67",
+                "horario": "18:30-19:20",
+                "dia": "Vi"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE APLICACIONES",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 8",
+                "color": "#28F8B8",
+                "horario": "19:20-20:10",
+                "dia": "Lu"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DEL TIEMPO",
+                "maestro": "Acosta Ruz Karla  Patricia",
+                "salon": "Aula C-104",
+                "color": "#FF8080",
+                "horario": "19:20-20:10",
+                "dia": "Ma"
+            },
+            {
+                "materia": "MODELADO DE PROCESOS DE NEGOCIOS",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Lab 5",
+                "color": "#FF4200",
+                "horario": "19:20-20:10",
+                "dia": "Mi"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE APLICACIONES",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab1",
+                "color": "#28F8B8",
+                "horario": "19:20-20:10",
+                "dia": "Ju"
+            },
+            {
+                "materia": "INGENIER\u00cdA ECON\u00d3MICA",
+                "maestro": "Quijano Aban Victor Manuel",
+                "salon": "Lab 4",
+                "color": "#ADA349",
+                "horario": "19:20-20:10",
+                "dia": "Vi"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "20:10-21:00",
+                "dia": "Lu"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "20:10-21:00",
+                "dia": "Ma"
+            },
+            {
+                "materia": "MODELADO DE PROCESOS DE NEGOCIOS",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Lab 5",
+                "color": "#FF4200",
+                "horario": "20:10-21:00",
+                "dia": "Mi"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE APLICACIONES",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab1",
+                "color": "#28F8B8",
+                "horario": "20:10-21:00",
+                "dia": "Ju"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "20:10-21:00",
                 "dia": "Vi"
             }
         ],
-        "10B": [
+        "7D-ING": [
+            {
+                "materia": "INGLES VI",
+                "maestro": "",
+                "salon": "Aula C-116",
+                "color": "#fff",
+                "horario": "16:00-16:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE APLICACIONES",
+                "maestro": "Uh Perez Oscar Josue",
+                "salon": "Lab 4",
+                "color": "#675782",
+                "horario": "16:00-16:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGLES VI",
+                "maestro": "",
+                "salon": "Aula C-112",
+                "color": "#fff",
+                "horario": "16:00-16:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE APLICACIONES",
+                "maestro": "Uh Perez Oscar Josue",
+                "salon": "Lab 6",
+                "color": "#675782",
+                "horario": "16:00-16:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "MATEM\u00c1TICAS PARA TI",
+                "maestro": "Palma Gamboa Oscar Antonio",
+                "salon": "Lab 7",
+                "color": "#914A67",
+                "horario": "16:00-16:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGLES VI",
+                "maestro": "",
+                "salon": "Aula C-116",
+                "color": "#fff",
+                "horario": "16:50-17:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE APLICACIONES",
+                "maestro": "Uh Perez Oscar Josue",
+                "salon": "Lab 4",
+                "color": "#675782",
+                "horario": "16:50-17:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGLES VI",
+                "maestro": "",
+                "salon": "Aula C-112",
+                "color": "#fff",
+                "horario": "16:50-17:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE APLICACIONES",
+                "maestro": "Uh Perez Oscar Josue",
+                "salon": "Lab 6",
+                "color": "#675782",
+                "horario": "16:50-17:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "MATEM\u00c1TICAS PARA TI",
+                "maestro": "Palma Gamboa Oscar Antonio",
+                "salon": "Lab 7",
+                "color": "#914A67",
+                "horario": "16:50-17:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DEL TIEMPO",
+                "maestro": "Martin Flores Juan Manuel",
+                "salon": "Aula C-106",
+                "color": "#FAD86A",
+                "horario": "17:40-18:30",
+                "dia": "Lu"
+            },
+            {
+                "materia": "MATEM\u00c1TICAS PARA TI",
+                "maestro": "Palma Gamboa Oscar Antonio",
+                "salon": "Lab 7",
+                "color": "#914A67",
+                "horario": "17:40-18:30",
+                "dia": "Ma"
+            },
+            {
+                "materia": "PROGRAMACI\u00d3N DE APLICACIONES",
+                "maestro": "Uh Perez Oscar Josue",
+                "salon": "Lab 2",
+                "color": "#675782",
+                "horario": "17:40-18:30",
+                "dia": "Mi"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DEL TIEMPO",
+                "maestro": "Martin Flores Juan Manuel",
+                "salon": "Aula C-116",
+                "color": "#FAD86A",
+                "horario": "17:40-18:30",
+                "dia": "Ju"
+            },
+            {
+                "materia": "INGENIER\u00cdA ECON\u00d3MICA",
+                "maestro": "Quijano Aban Victor Manuel",
+                "salon": "Lab 4",
+                "color": "#ADA349",
+                "horario": "17:40-18:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "ADMINISTRACI\u00d3N DEL TIEMPO",
+                "maestro": "Martin Flores Juan Manuel",
+                "salon": "Aula C-106",
+                "color": "#FAD86A",
+                "horario": "18:30-19:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "MATEM\u00c1TICAS PARA TI",
+                "maestro": "Palma Gamboa Oscar Antonio",
+                "salon": "Lab 7",
+                "color": "#914A67",
+                "horario": "18:30-19:20",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGENIER\u00cdA ECON\u00d3MICA",
+                "maestro": "Quijano Aban Victor Manuel",
+                "salon": "Lab 2",
+                "color": "#ADA349",
+                "horario": "18:30-19:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "MATEM\u00c1TICAS PARA TI",
+                "maestro": "Palma Gamboa Oscar Antonio",
+                "salon": "Lab 7",
+                "color": "#914A67",
+                "horario": "18:30-19:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "INGENIER\u00cdA ECON\u00d3MICA",
+                "maestro": "Quijano Aban Victor Manuel",
+                "salon": "Lab 4",
+                "color": "#ADA349",
+                "horario": "18:30-19:20",
+                "dia": "Vi"
+            },
+            {
+                "materia": "OPTATIVA I-ELECTRONICA",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab 6",
+                "color": "#FF9900",
+                "horario": "19:20-20:10",
+                "dia": "Lu"
+            },
+            {
+                "materia": "MODELADO DE PROCESOS DE NEGOCIOS",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Lab 5",
+                "color": "#FF4200",
+                "horario": "19:20-20:10",
+                "dia": "Ma"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "19:20-20:10",
+                "dia": "Mi"
+            },
+            {
+                "materia": "OPTATIVA I-ELECTRONICA",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab Elect",
+                "color": "#FF9900",
+                "horario": "19:20-20:10",
+                "dia": "Ju"
+            },
+            {
+                "materia": "MODELADO DE PROCESOS DE NEGOCIOS",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Lab 5",
+                "color": "#FF4200",
+                "horario": "19:20-20:10",
+                "dia": "Vi"
+            },
+            {
+                "materia": "TUTOR\u00cdAS",
+                "maestro": "Uh Perez Oscar Josue",
+                "salon": "Aula C-114",
+                "color": "#675782",
+                "horario": "20:10-21:00",
+                "dia": "Lu"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "20:10-21:00",
+                "dia": "Ma"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "20:10-21:00",
+                "dia": "Mi"
+            },
+            {
+                "materia": "OPTATIVA I-ELECTRONICA",
+                "maestro": "Cupul Mendez Arturo Augusto",
+                "salon": "Lab Elect",
+                "color": "#FF9900",
+                "horario": "20:10-21:00",
+                "dia": "Ju"
+            },
+            {
+                "materia": "MODELADO DE PROCESOS DE NEGOCIOS",
+                "maestro": "Flores Gongora Roger Armando",
+                "salon": "Lab 5",
+                "color": "#FF4200",
+                "horario": "20:10-21:00",
+                "dia": "Vi"
+            }
+        ],
+        "10A-ING": [
+            {
+                "materia": "AUDITORIA DE SISTEMAS DE TI",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 5",
+                "color": "#14C000",
+                "horario": "16:00-16:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGLES IX",
+                "maestro": "",
+                "salon": "Aula C-106",
+                "color": "#fff",
+                "horario": "16:00-16:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INTEGRADORA II",
+                "maestro": "Cervera Evia Gimer Amilcar",
+                "salon": "Lab1",
+                "color": "#CCCCFF",
+                "horario": "16:00-16:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGLES IX",
+                "maestro": "",
+                "salon": "Aula C-112",
+                "color": "#fff",
+                "horario": "16:00-16:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "AUDITORIA DE SISTEMAS DE TI",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 5",
+                "color": "#14C000",
+                "horario": "16:00-16:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "AUDITORIA DE SISTEMAS DE TI",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 5",
+                "color": "#14C000",
+                "horario": "16:50-17:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGLES IX",
+                "maestro": "",
+                "salon": "Aula C-106",
+                "color": "#fff",
+                "horario": "16:50-17:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INTEGRADORA II",
+                "maestro": "Cervera Evia Gimer Amilcar",
+                "salon": "Lab1",
+                "color": "#CCCCFF",
+                "horario": "16:50-17:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGLES IX",
+                "maestro": "",
+                "salon": "Aula C-112",
+                "color": "#fff",
+                "horario": "16:50-17:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "AUDITORIA DE SISTEMAS DE TI",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab 5",
+                "color": "#14C000",
+                "horario": "16:50-17:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "TOPICOS SELECTOS DE TI",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 8",
+                "color": "#28F8B8",
+                "horario": "17:40-18:30",
+                "dia": "Lu"
+            },
+            {
+                "materia": "NEGOCIACION EMPRESARIAL",
+                "maestro": "Acosta Ruz Karla  Patricia",
+                "salon": "Aula C-104",
+                "color": "#FF8080",
+                "horario": "17:40-18:30",
+                "dia": "Ma"
+            },
+            {
+                "materia": "TUTOR\u00cdAS",
+                "maestro": "Quijano Aban Victor Manuel",
+                "salon": "Aula C-106",
+                "color": "#ADA349",
+                "horario": "17:40-18:30",
+                "dia": "Mi"
+            },
+            {
+                "materia": "ESTADISTICA APLICADA",
+                "maestro": "Yahaira del Rosario Sozaya Chan",
+                "salon": "Lab 4",
+                "color": "#0000FF",
+                "horario": "17:40-18:30",
+                "dia": "Ju"
+            },
+            {
+                "materia": "ESTADISTICA APLICADA",
+                "maestro": "Yahaira del Rosario Sozaya Chan",
+                "salon": "Lab 8",
+                "color": "#0000FF",
+                "horario": "17:40-18:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "SEGURIDAD DE LA INFORMACION",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 2",
+                "color": "#003300",
+                "horario": "18:30-19:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "NEGOCIACION EMPRESARIAL",
+                "maestro": "Acosta Ruz Karla  Patricia",
+                "salon": "Aula C-104",
+                "color": "#FF8080",
+                "horario": "18:30-19:20",
+                "dia": "Ma"
+            },
+            {
+                "materia": "TOPICOS SELECTOS DE TI",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 4",
+                "color": "#28F8B8",
+                "horario": "18:30-19:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "ESTADISTICA APLICADA",
+                "maestro": "Yahaira del Rosario Sozaya Chan",
+                "salon": "Lab 4",
+                "color": "#0000FF",
+                "horario": "18:30-19:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "ESTADISTICA APLICADA",
+                "maestro": "Yahaira del Rosario Sozaya Chan",
+                "salon": "Lab 8",
+                "color": "#0000FF",
+                "horario": "18:30-19:20",
+                "dia": "Vi"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "19:20-20:10",
+                "dia": "Lu"
+            },
+            {
+                "materia": "SEGURIDAD DE LA INFORMACION",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 6",
+                "color": "#003300",
+                "horario": "19:20-20:10",
+                "dia": "Ma"
+            },
+            {
+                "materia": "TOPICOS SELECTOS DE TI",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 4",
+                "color": "#28F8B8",
+                "horario": "19:20-20:10",
+                "dia": "Mi"
+            },
+            {
+                "materia": "SEGURIDAD DE LA INFORMACION",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 6",
+                "color": "#003300",
+                "horario": "19:20-20:10",
+                "dia": "Ju"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "19:20-20:10",
+                "dia": "Vi"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "20:10-21:00",
+                "dia": "Lu"
+            },
+            {
+                "materia": "SEGURIDAD DE LA INFORMACION",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 6",
+                "color": "#003300",
+                "horario": "20:10-21:00",
+                "dia": "Ma"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "20:10-21:00",
+                "dia": "Mi"
+            },
+            {
+                "materia": "SEGURIDAD DE LA INFORMACION",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 6",
+                "color": "#003300",
+                "horario": "20:10-21:00",
+                "dia": "Ju"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "20:10-21:00",
+                "dia": "Vi"
+            }
+        ],
+        "10B-ING": [
             {
                 "materia": "ESTADISTICA APLICADA",
                 "maestro": "Ceballos Hernandez Martha Rocio",
@@ -1811,17 +6079,506 @@
                 "horario": "20:10-21:00",
                 "dia": "Vi"
             }
+        ],
+        "10C-ING": [
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "16:00-16:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGLES IX",
+                "maestro": "",
+                "salon": "Aula C-102",
+                "color": "#fff",
+                "horario": "16:00-16:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "TUTOR\u00cdAS",
+                "maestro": "Quijano Aban Victor Manuel",
+                "salon": "Aula C-102",
+                "color": "#ADA349",
+                "horario": "16:00-16:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGLES IX",
+                "maestro": "",
+                "salon": "Aula C-114",
+                "color": "#fff",
+                "horario": "16:00-16:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "INTEGRADORA II",
+                "maestro": "Uh Perez Oscar Josue",
+                "salon": "Lab 6",
+                "color": "#675782",
+                "horario": "16:00-16:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "AUDITORIA DE SISTEMAS DE TI",
+                "maestro": "Quijano Aban Victor Manuel",
+                "salon": "Lab 9",
+                "color": "#ADA349",
+                "horario": "16:50-17:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGLES IX",
+                "maestro": "",
+                "salon": "Aula C-102",
+                "color": "#fff",
+                "horario": "16:50-17:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "NEGOCIACION EMPRESARIAL",
+                "maestro": "Acosta Ruz Karla  Patricia",
+                "salon": "Aula C-102",
+                "color": "#FF8080",
+                "horario": "16:50-17:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGLES IX",
+                "maestro": "",
+                "salon": "Aula C-114",
+                "color": "#fff",
+                "horario": "16:50-17:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "INTEGRADORA II",
+                "maestro": "Uh Perez Oscar Josue",
+                "salon": "Lab 6",
+                "color": "#675782",
+                "horario": "16:50-17:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "AUDITORIA DE SISTEMAS DE TI",
+                "maestro": "Quijano Aban Victor Manuel",
+                "salon": "Lab 9",
+                "color": "#ADA349",
+                "horario": "17:40-18:30",
+                "dia": "Lu"
+            },
+            {
+                "materia": "SEGURIDAD DE LA INFORMACION",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 8",
+                "color": "#28F8B8",
+                "horario": "17:40-18:30",
+                "dia": "Ma"
+            },
+            {
+                "materia": "NEGOCIACION EMPRESARIAL",
+                "maestro": "Acosta Ruz Karla  Patricia",
+                "salon": "Aula C-102",
+                "color": "#FF8080",
+                "horario": "17:40-18:30",
+                "dia": "Mi"
+            },
+            {
+                "materia": "AUDITORIA DE SISTEMAS DE TI",
+                "maestro": "Quijano Aban Victor Manuel",
+                "salon": "Lab 5",
+                "color": "#ADA349",
+                "horario": "17:40-18:30",
+                "dia": "Ju"
+            },
+            {
+                "materia": "SEGURIDAD DE LA INFORMACION",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 2",
+                "color": "#28F8B8",
+                "horario": "17:40-18:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "TOPICOS SELECTOS DE TI",
+                "maestro": "Carballo Tadeo Jaziel Aaron",
+                "salon": "Lab1",
+                "color": "#999999",
+                "horario": "18:30-19:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "SEGURIDAD DE LA INFORMACION",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 8",
+                "color": "#28F8B8",
+                "horario": "18:30-19:20",
+                "dia": "Ma"
+            },
+            {
+                "materia": "ESTADISTICA APLICADA",
+                "maestro": "Yahaira del Rosario Sozaya Chan",
+                "salon": "Aula C-114",
+                "color": "#0000FF",
+                "horario": "18:30-19:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "AUDITORIA DE SISTEMAS DE TI",
+                "maestro": "Quijano Aban Victor Manuel",
+                "salon": "Lab 5",
+                "color": "#ADA349",
+                "horario": "18:30-19:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "SEGURIDAD DE LA INFORMACION",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 2",
+                "color": "#28F8B8",
+                "horario": "18:30-19:20",
+                "dia": "Vi"
+            },
+            {
+                "materia": "TOPICOS SELECTOS DE TI",
+                "maestro": "Carballo Tadeo Jaziel Aaron",
+                "salon": "Lab1",
+                "color": "#999999",
+                "horario": "19:20-20:10",
+                "dia": "Lu"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "19:20-20:10",
+                "dia": "Ma"
+            },
+            {
+                "materia": "ESTADISTICA APLICADA",
+                "maestro": "Yahaira del Rosario Sozaya Chan",
+                "salon": "Aula C-114",
+                "color": "#0000FF",
+                "horario": "19:20-20:10",
+                "dia": "Mi"
+            },
+            {
+                "materia": "ESTADISTICA APLICADA",
+                "maestro": "Yahaira del Rosario Sozaya Chan",
+                "salon": "Lab 4",
+                "color": "#0000FF",
+                "horario": "19:20-20:10",
+                "dia": "Ju"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "19:20-20:10",
+                "dia": "Vi"
+            },
+            {
+                "materia": "SEGURIDAD DE LA INFORMACION",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 8",
+                "color": "#28F8B8",
+                "horario": "20:10-21:00",
+                "dia": "Lu"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "20:10-21:00",
+                "dia": "Ma"
+            },
+            {
+                "materia": "TOPICOS SELECTOS DE TI",
+                "maestro": "Carballo Tadeo Jaziel Aaron",
+                "salon": "Lab 8",
+                "color": "#999999",
+                "horario": "20:10-21:00",
+                "dia": "Mi"
+            },
+            {
+                "materia": "ESTADISTICA APLICADA",
+                "maestro": "Yahaira del Rosario Sozaya Chan",
+                "salon": "Lab 4",
+                "color": "#0000FF",
+                "horario": "20:10-21:00",
+                "dia": "Ju"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "20:10-21:00",
+                "dia": "Vi"
+            }
+        ],
+        "10D-ING": [
+            {
+                "materia": "NEGOCIACION EMPRESARIAL",
+                "maestro": "Martin Flores Juan Manuel",
+                "salon": "Aula C-106",
+                "color": "#FAD86A",
+                "horario": "16:00-16:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGLES IX",
+                "maestro": "",
+                "salon": "Aula C-112",
+                "color": "#fff",
+                "horario": "16:00-16:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "16:00-16:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGLES IX",
+                "maestro": "",
+                "salon": "Aula C-104",
+                "color": "#fff",
+                "horario": "16:00-16:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "16:00-16:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "NEGOCIACION EMPRESARIAL",
+                "maestro": "Martin Flores Juan Manuel",
+                "salon": "Aula C-106",
+                "color": "#FAD86A",
+                "horario": "16:50-17:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGLES IX",
+                "maestro": "",
+                "salon": "Aula C-112",
+                "color": "#fff",
+                "horario": "16:50-17:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "TOPICOS SELECTOS DE TI",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 4",
+                "color": "#28F8B8",
+                "horario": "16:50-17:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGLES IX",
+                "maestro": "",
+                "salon": "Aula C-104",
+                "color": "#fff",
+                "horario": "16:50-17:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "16:50-17:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "ESTADISTICA APLICADA",
+                "maestro": "Ceballos Hernandez Martha Rocio",
+                "salon": "Lab 3",
+                "color": "#666666",
+                "horario": "17:40-18:30",
+                "dia": "Lu"
+            },
+            {
+                "materia": "SEGURIDAD DE LA INFORMACION",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 6",
+                "color": "#003300",
+                "horario": "17:40-18:30",
+                "dia": "Ma"
+            },
+            {
+                "materia": "ESTADISTICA APLICADA",
+                "maestro": "Ceballos Hernandez Martha Rocio",
+                "salon": "Lab 3",
+                "color": "#666666",
+                "horario": "17:40-18:30",
+                "dia": "Mi"
+            },
+            {
+                "materia": "TUTOR\u00cdAS",
+                "maestro": "Uh Perez Oscar Josue",
+                "salon": "Aula C-104",
+                "color": "#675782",
+                "horario": "17:40-18:30",
+                "dia": "Ju"
+            },
+            {
+                "materia": "AUDITORIA DE SISTEMAS DE TI",
+                "maestro": "Caballero Aguilar Anibal Antonio",
+                "salon": "Lab1",
+                "color": "#80C0FF",
+                "horario": "17:40-18:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "ESTADISTICA APLICADA",
+                "maestro": "Ceballos Hernandez Martha Rocio",
+                "salon": "Lab 3",
+                "color": "#666666",
+                "horario": "18:30-19:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "SEGURIDAD DE LA INFORMACION",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 6",
+                "color": "#003300",
+                "horario": "18:30-19:20",
+                "dia": "Ma"
+            },
+            {
+                "materia": "ESTADISTICA APLICADA",
+                "maestro": "Ceballos Hernandez Martha Rocio",
+                "salon": "Lab 3",
+                "color": "#666666",
+                "horario": "18:30-19:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "SEGURIDAD DE LA INFORMACION",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 6",
+                "color": "#003300",
+                "horario": "18:30-19:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "AUDITORIA DE SISTEMAS DE TI",
+                "maestro": "Caballero Aguilar Anibal Antonio",
+                "salon": "Lab1",
+                "color": "#80C0FF",
+                "horario": "18:30-19:20",
+                "dia": "Vi"
+            },
+            {
+                "materia": "SEGURIDAD DE LA INFORMACION",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 2",
+                "color": "#003300",
+                "horario": "19:20-20:10",
+                "dia": "Lu"
+            },
+            {
+                "materia": "AUDITORIA DE SISTEMAS DE TI",
+                "maestro": "Caballero Aguilar Anibal Antonio",
+                "salon": "Lab1",
+                "color": "#80C0FF",
+                "horario": "19:20-20:10",
+                "dia": "Ma"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "19:20-20:10",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INTEGRADORA II",
+                "maestro": "Quijano Aban Victor Manuel",
+                "salon": "Lab 9",
+                "color": "#ADA349",
+                "horario": "19:20-20:10",
+                "dia": "Ju"
+            },
+            {
+                "materia": "TOPICOS SELECTOS DE TI",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 2",
+                "color": "#28F8B8",
+                "horario": "19:20-20:10",
+                "dia": "Vi"
+            },
+            {
+                "materia": "SEGURIDAD DE LA INFORMACION",
+                "maestro": "De la Cruz Lugo Eric",
+                "salon": "Lab 2",
+                "color": "#003300",
+                "horario": "20:10-21:00",
+                "dia": "Lu"
+            },
+            {
+                "materia": "AUDITORIA DE SISTEMAS DE TI",
+                "maestro": "Caballero Aguilar Anibal Antonio",
+                "salon": "Lab1",
+                "color": "#80C0FF",
+                "horario": "20:10-21:00",
+                "dia": "Ma"
+            },
+            {
+                "materia": "modulo libre",
+                "maestro": "",
+                "salon": "Lab X",
+                "color": "#FFFFFF",
+                "horario": "20:10-21:00",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INTEGRADORA II",
+                "maestro": "Quijano Aban Victor Manuel",
+                "salon": "Lab 9",
+                "color": "#ADA349",
+                "horario": "20:10-21:00",
+                "dia": "Ju"
+            },
+            {
+                "materia": "TOPICOS SELECTOS DE TI",
+                "maestro": "Mex Mex Aurelio",
+                "salon": "Lab 2",
+                "color": "#28F8B8",
+                "horario": "20:10-21:00",
+                "dia": "Vi"
+            }
         ]
     },
     "Fecha": [
-        "2019-11-09",
-        "2019-11-19",
         "2019-11-01",
-        "2019-11-10",
-        "2019-11-12",
-        "2019-11-28",
-        "2019-11-04",
-        "2019-08-01",
-        "2020-01-15"
+        "2019-11-18",
+        "2019-12-16",
+        "2019-10-01",
+        "2019-09-16",
+        "2020-01-01",
+        "2020-02-03",
+        "2020-02-24",
+        "2020-02-25",
+        "2020-03-16",
+        "2020-05-01",
+        "2020-05-05",
+        "2020-05-15",
+        "2019-11-14"
     ]
 }

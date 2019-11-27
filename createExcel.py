@@ -19,6 +19,8 @@ class SubWindow(tk.Toplevel):
         self.title("Generar Excel del {}".format(self.grupo))
         for i in range(3):
             self.columnconfigure(i, weight=1)
+
+
             self.rowconfigure(i, weight=1)
         self.calendario = argv[0][0]
         self.txts = ["" for x in range(6)]
@@ -34,11 +36,11 @@ class SubWindow(tk.Toplevel):
         self.lbl3 = ttk.Label(self, text="Parcial 3")
         self.lbl3.grid(column=0, row=2,sticky="nsew", padx=10, pady=5)
 
-        self.txts[0] = ttk.Entry(self)
+        self.txts[0] = ttk.Entry(self, text="2019-10-04")
         self.txts[0].grid(column = 1, row = 0,columnspan=2)
-        self.txts[1] = ttk.Entry(self)
+        self.txts[1] = ttk.Entry(self, text="2019-10-31")
         self.txts[1].grid(column = 1, row = 1,columnspan=2)
-        self.txts[2] = ttk.Entry(self)
+        self.txts[2] = ttk.Entry(self, text="2019-12-04")
         self.txts[2].grid(column = 1, row = 2,columnspan=2)
 
         self.lbl4 = ttk.Label(self, text="Fecha ordinario")
@@ -48,11 +50,11 @@ class SubWindow(tk.Toplevel):
         self.lbl6 = ttk.Label(self, text="Fecha extraordinario 2")
         self.lbl6.grid(column=3, row=2, padx=5)
 
-        self.txts[3] = ttk.Entry(self)
+        self.txts[3] = ttk.Entry(self, text="2019-12-11")
         self.txts[3].grid(column = 4, row = 0,columnspan=2, padx=10, pady=5)
-        self.txts[4] = ttk.Entry(self)
+        self.txts[4] = ttk.Entry(self, text="2019-12-13")
         self.txts[4].grid(column = 4, row = 1,columnspan=2, padx=10, pady=5)
-        self.txts[5] = ttk.Entry(self)
+        self.txts[5] = ttk.Entry(self, text="2019-12-17")
         self.txts[5].grid(column = 4, row = 2,columnspan=2, padx=10, pady=5)
 
         self.btn = ttk.Button(self, text="Generar Excel", command= lambda : self.generateExcel())
@@ -98,7 +100,7 @@ class SubWindow(tk.Toplevel):
                     cursor="hand1", year=self.anio, month=self.mes, day=self.dia)
             cal.pack(fill="both", expand=True)
             ttk.Button(top, text="ok", command=print_sel).pack(expand=True, fill=tk.BOTH, ipadx=10, ipady=10, pady=2)   
-            ttk.Button(top, text="Guardar como pendiente", command=print_pendiente).pack(expand=True, fill=tk.BOTH, ipadx=10, ipady=10, pady=2)   
+            ttk.Button(top, text="Guardar como pendiente", command= print_pendiente).pack(expand=True, fill=tk.BOTH, ipadx=10, ipady=10, pady=2)   
         # else:
     def updateDate(self, date):
         self.dia =  date.day
@@ -113,23 +115,41 @@ class SubWindow(tk.Toplevel):
             json = jsonConverter()
             fechas = json.getFechas(self)
             calendariosExamenes = []
-            
+            fechaInicio= []
+            fechaFinal = []
+            listaMateriasNoAplicadas = []
+            listaMateriasNoAplicadas2 = []
             for i in range(6):
                 fecha = self.txts[i].get()
                 if fecha == None or fecha == '' or fecha == 'Pediente':
+                    fechaInicio.append('Pendiente')
+                    fechaFinal.append('Pendiente')
                     calendariosExamenes.append(
                         'Pendiente'
                     ) 
                 else: 
                     array = json.getCalendario(self, self.grupo)
                     fecha = fecha.split('-')
-                    examenes = CalendarioExamenes(array, self.grupo, fechas, fecha)
-                    examenes = examenes.crearCalendarioExmanes()
+                    objCalendarioExamenes = CalendarioExamenes(array, self.grupo, fechas, fecha)
+                    if i < 4:
+                        examenes = objCalendarioExamenes.crearCalendarioExmanes()
+                    else:
+                        examenes = objCalendarioExamenes.crearCalendarioExamenesExtraordinarios()
+                         
+                    fechaInicio.append(objCalendarioExamenes.fechaInicio)
+                    fechaFinal.append(fecha)
                     calendariosExamenes.append(
                         examenes
-                    ) 
-                
-            self.new_window(calendariosExamenes)
+                    )
+                    listaMateriasNoAplicadas.append(
+                        objCalendarioExamenes.listaMateriasNoAplicadas
+                    )
+                    listaMateriasNoAplicadas2.append(
+                        objCalendarioExamenes.listaMateriasNoAplicadas
+                    )
+                    
+            array = json.getCalendario(self, self.grupo)    
+            self.new_window(calendariosExamenes, array, fechaInicio, self.grupo, fechaFinal, listaMateriasNoAplicadas, listaMateriasNoAplicadas2)
 
             self.progress.stop()
             self.progress.grid_forget()

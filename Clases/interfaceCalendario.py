@@ -81,36 +81,84 @@
 # main_window.mainloop()
 
 
-from tkinter import Button, Tk, HORIZONTAL
+# from tkinter import Button, Tk, HORIZONTAL
 
-from tkinter.ttk import Progressbar
-import time
-import threading
+# from tkinter.ttk import Progressbar
+# import time
+# import threading
 
-class MonApp(Tk):
-    def __init__(self):
-        super().__init__()
-
-
-        self.btn = Button(self, text='Traitement', command=self.traitement)
-        self.btn.grid(row=0,column=0)
-        self.progress = Progressbar(self, orient=HORIZONTAL,length=100,  mode='indeterminate')
+# class MonApp(Tk):
+#     def __init__(self):
+#         super().__init__()
 
 
-    def traitement(self):
-        def real_traitement():
-            self.progress.grid(row=1,column=0)
-            self.progress.start()
-            time.sleep(5)
-            self.progress.stop()
-            self.progress.grid_forget()
+#         self.btn = Button(self, text='Traitement', command=self.traitement)
+#         self.btn.grid(row=0,column=0)
+#         self.progress = Progressbar(self, orient=HORIZONTAL,length=100,  mode='indeterminate')
 
-            self.btn['state']='normal'
 
-        self.btn['state']='disabled'
-        threading.Thread(target=real_traitement).start()
+#     def traitement(self):
+#         def real_traitement():
+#             self.progress.grid(row=1,column=0)
+#             self.progress.start()
+#             time.sleep(5)
+#             self.progress.stop()
+#             self.progress.grid_forget()
 
-if __name__ == '__main__':
+#             self.btn['state']='normal'
 
-    app = MonApp()
-    app.mainloop()
+#         self.btn['state']='disabled'
+#         threading.Thread(target=real_traitement).start()
+
+# if __name__ == '__main__':
+
+#     app = MonApp()
+#     app.mainloop()
+
+
+# from tkinter import *
+
+# master = Tk()
+
+# scrollbar = Scrollbar(master)
+# scrollbar.pack(side=RIGHT, fill=Y)
+
+# listbox = Listbox(master, yscrollcommand=scrollbar.set)
+# for i in range(1000):
+#     listbox.insert(END, str(i))
+# listbox.pack(side=LEFT, fill=BOTH)
+
+# scrollbar.config(command=listbox.yview)
+
+# mainloop()
+
+from tkinter import *
+from tkinter import ttk
+
+name_list = ('George', 'Maria', 'Peter', 'Nick')
+surname_list = ('Lycos', 'Ntou', 'Wolf', 'Stath')
+telephone_list = ('6950 123123', '6950 123456', '6951 025458', '6970 985214')
+root = Tk()
+root.title('Treeview')
+root.configure(background='Yellow Green')
+
+ttk.Label(root, text='There must be colors at some rows:', font=('DejaVu Sans', 11, 'bold'), background= 'yellow green').grid(row=0, column=0)
+tree = ttk.Treeview(root, columns=('name', 'surname', 'telephone'))
+tree.grid(row=1, column=0)
+ttk.Button(root, text='Exit', command=root.destroy).grid(row=3, column=0, pady=10)
+tree.heading('#0', text='Α/Α')
+tree.heading('name', text='Name')
+tree.heading('surname', text='Surname')
+tree.heading('telephone', text='Telephone')
+
+tree.column('#0', width=50)
+tree.column('telephone', anchor='center')
+
+for i, (name, surname, telephone) in enumerate(zip(name_list, surname_list, telephone_list), start=1):
+    if i % 2 != 0:
+        tree.insert(parent='', index='end', iid=str(i), text=str(i), values=(name, surname, telephone))
+    else:
+        tree.insert(parent='', index='end', iid=str(i), text=str(i), tags = 'paint', values=(name, surname, telephone))
+
+tree.tag_configure(tagname='paint', background='yellow2')
+root.mainloop()

@@ -15,6 +15,7 @@ class Application(ttk.Frame):
         root.columnconfigure(0, weight=2)
         root.rowconfigure(0, weight=1)
         root.rowconfigure(1, weight=6)
+        
 
         self.btn = ttk.Button(root, text="Agregar nuevo usando link", command= lambda : self.new_window('sW'))
         self.btn.grid(column=2, row=0,sticky="nsew", padx=2, pady=5, ipadx=10, ipady=10)
@@ -43,10 +44,7 @@ class Application(ttk.Frame):
         self.treeView.heading("Grupo", text="Grupo")
         self.treeView.grid(column=0, row=1,sticky="nsew")
         self.fillTable()
-        self.treeView.bind('<ButtonRelease-1>', self.selected_item)
-        #Esta madre no sirve
-        self.treeView.tag_configure('odd', background='#E8E8E8')
-        self.treeView.tag_configure('even', background='#DFDFDF')
+        self.treeView.bind('<ButtonRelease-1>',self.selected_item)
         
         self.grid(sticky="nsew")
 
@@ -89,7 +87,7 @@ class Application(ttk.Frame):
                 data = json.load(file)
                 for item in data['Calendario']:
                     #self.treeView.insert('', 'end', values=item)
-                    self.treeView.insert("", 'end',values=(item, "Eliminar" , "Generar Excel") )
+                    self.treeView.insert("", 'end', values=(item, "Eliminar" , "Generar Excel") )
         except:
             pass
     

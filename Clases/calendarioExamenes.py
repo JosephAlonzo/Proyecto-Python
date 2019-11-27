@@ -7,173 +7,280 @@
 #   *************************************
 
 from Clases.calendario import Calendario
-import unidecode
 import datetime
 from datetime import date,timedelta
+import operator
 
 class CalendarioExamenes():
     def __init__(self,array,grupo,diasInhabiles, fechaFinal):
         #Calendario.__init__(self)
         self.diasInhabiles = diasInhabiles
         self.dias = [grupo, 'Lunes','Martes','Miercoles','Jueves','Viernes']
-        self.calendarioUtm = array
+        self.calendarioUtm = [self.dias] + array
         self.periodo = []
         self.fechaFinal = fechaFinal
         self.fechaInicio = ''
-        #esta parte crea los arreglos de los calendarios que vamos a utilizar
-        self.numeroSemanas = self.calcularNumeroDeSemanasEnIntervalo(self.fechaFinal)
-        self.calendarioUtmExamenes = [ 
-           [ [ '' for x in range( len(self.dias))] for y in range(len(self.calendarioUtm)) ] for i in range(self.numeroSemanas+1)
-        ]
-        #self.materiasSinExamenes = materiasSinExamenes
-
+        
+        self.materiasSinExamenes = ['tutorias', 'ingles','tutorías', 'inglés'   ]
+        self.listaMateriasNoAplicadas = []
     def crearCalendarioExmanes(self):
-        # for i in range( len (self.calendarioUtmExamenes) ) :
-        #     self.calendarioUtmExamenes[i] = self.addHorasAndDias(self.calendarioUtmExamenes[i])   
-            
-        # self.calendarioUtm = self.deleteMateriasDondeNoSePresentaExamen(self.calendarioUtm, self.materiasSinExamenes)
+        #esta parte crea los arreglos de los calendarios que vamos a utilizar
+        numeroSemanas = self.calcularNumeroDeSemanasEnIntervalo(self.fechaFinal, 5)
+        self.calendarioUtmExamenes = [ 
+           [ [ '' for x in range( len(self.dias))] for y in range(len(self.calendarioUtm)) ] for i in range(numeroSemanas+1)
+        ]
+        self.calendarioUtm = self.deleteMateriasDondeNoSePresentaExamen(self.calendarioUtm, self.materiasSinExamenes)
+        self.addFechas()
+        # 'diaDeInicio' es el valor numerico del dia de inicio, se le agrega uno porque es base cero 
+        # y en nuestro arreglo de calendarios el valor '0' es ocupado por los horarios
+        diaDeInicio = self.fechaInicio.weekday() + 1
+        listaMaterias = self.getLisOrderedByPriority(self.calendarioUtm, numeroSemanas, diaDeInicio)
+
         i = len(self.calendarioUtm)
         j = len(self.calendarioUtm[0])
-        salir = False
-        limiteExamenesPorDia = 1
-        semana = 0
-        diaEnCurso = self.fechaInicio
-        while salir == False:
-            for column in range(j):
-                # 'diaDeInicio' es el valor numerico del dia de inicio, se le agrega uno porque es base cero 
-                # y en nuestro arreglo de calendarios el valor '0' es ocupado por los horarios
-                diaDeInicio = self.fechaInicio.weekday() + 1
-                if column == 0 or (column < diaDeInicio and semana == 0):
-                    continue
-                # diaEnCurso representa la fecha de inicio nos servira para validar si es 
-                # un dia inhabil cuando la semana vuelve a ser 0 se reinicia esta variable
-                # para indicar que volveremos a pasar por la misma semana
-                diaEnCurso += datetime.timedelta(days=1)
-                if self.isInhabil(diaEnCurso) == True:
-                    continue
-                for row in range(i):
-                    # if row == 0:
-                    #     continue
-                    try:
-                        materia = self.calendarioUtm[row][column]['materia']
-                    except:
-                        materia = self.calendarioUtm[row][column]
+        limiteExamenesPorDia = 2
+        # diaEnCurso = self.fechaInicio 
+        ultimaMateria = ''
+        count = 0
+        while len(listaMaterias) > 0:
+            #Despues de pasar los calendarios si aun es la misma materia listaMaterias[0][0] 
+            # con respecto a ultimaMateria entonces esto quiere decir que no se encontro la clase de 2 modulos lo que 
+            # por eso en cantidad en el arreglo disminuye a cero lo que quiere decir que podra agregarse a un solo modulo
+            # si es necesario
+            if ultimaMateria == listaMaterias[0][0]:
+                if listaMaterias[0][1] == 0 and count == 3:
+                    self.listaMateriasNoAplicadas.append(
+                        listaMaterias[0][0]
+                    )
+                    
+                    listaMaterias.pop(0)
+                    count = 0
+                elif count > 0:
+                    newLista = []
+                    for x in range(len(listaMaterias)):
+                        if x == 0:
+                            newLista.append((listaMaterias[x][0], 0))
+                        else:
+                            newLista.append((listaMaterias[x][0], listaMaterias[x][1]))
+                    listaMaterias = newLista
+                    count += 1
+                else:
+                    count = 1
 
-                    if  materia != '' and materia != 'modulo libre':
-                        if self.validarExamenesAsignadosPorDia(self.calendarioUtmExamenes[semana], column, limiteExamenesPorDia):
-                            break
-                        self.calendarioUtmExamenes[semana][row][column] = self.calendarioUtm[row][column]
-                        self.calendarioUtmExamenes[semana][row][column].update( {'fecha': diaEnCurso, 'dia': self.dias[diaEnCurso.weekday()]} )
-                        self.calendarioUtm = self.deleteMateriasRepetidas(self.calendarioUtm, self.calendarioUtm[row][column]['materia'])
+            if len(listaMaterias) > 0:
+                ultimaMateria = listaMaterias[0][0]
+            for semana in range(len(self.calendarioUtmExamenes)):
+                # diaEnCurso += datetime.timedelta(days=2 * semana)
+                # if diaEnCurso > self.fechaFinal:
+                #     diaEnCurso = self.fechaInicio
+                for column in range(j):
+                    # if column == 0 or (column < diaDeInicio and semana == 0):
+                    if column == 0:
+                        continue
+                    diaEnCurso = self.calendarioUtmExamenes[semana][0][column]
+                    if diaEnCurso < self.fechaInicio:
+                        continue
+                    if diaEnCurso > self.fechaFinal:
                         break
-                        
-                
-            # Indico que sera el siguiente arreglo (o sea la siguiente semana)
-            # como no hay sabados ni domingos al 'diaEnCurso' le agrego 2 dias que 
-            # vendrian siendo el fin de semana esto con el fin de poder validar los dias inhabiles 
-            semana += 1
-            diaEnCurso += datetime.timedelta(days=2)
-            if semana > self.numeroSemanas:
-                # inidica que llegamos al fin de las semanas y si aun quedan materias vamos a volver a recorrer los arreglos para 
-                # terminar de llenarlos
-                semana = 0
-                diaEnCurso = self.fechaInicio
-                limiteExamenesPorDia += 1
 
-            salir = self.validarSiTodosLosExamenesFueronAplicados()
+                    if self.validarExamenesAsignadosPorDia(self.calendarioUtmExamenes[semana], column, limiteExamenesPorDia):
+                        # diaEnCurso += datetime.timedelta(days=1)
+                        continue
+                    if self.isInhabil(diaEnCurso) == True:
+                        for row in range(i):
+                            if row == 0:
+                                continue
+                            self.calendarioUtmExamenes[semana][row][column] = 'inhabil'
+                        # diaEnCurso += datetime.timedelta(days=1)
+                        continue
+                    for row in range(i):
+                        if row == 0:
+                            continue
+                        try:
+                            materia = self.calendarioUtm[row][column]['materia']
+                        except:
+                            materia = self.calendarioUtm[row][column]
+                        try:
+                            comparacion = listaMaterias[0][0]
+                        except:
+                            break
+                        if materia == comparacion:
+                            if self.validarSiMateriaEsDeDosModulos(self.calendarioUtm,column, row, materia):
+                                self.calendarioUtmExamenes[semana][row][column] = self.calendarioUtm[row][column]
+                                self.calendarioUtmExamenes[semana][row][column].update( {'fecha': diaEnCurso} )
+                                listaMaterias.pop(0)
+                                count = 0
+                                break
+                            else:
+                                if listaMaterias[0][1] == 0:
+                                    self.calendarioUtmExamenes[semana][row][column] = self.calendarioUtm[row][column]
+                                    self.calendarioUtmExamenes[semana][row][column].update( {'fecha': diaEnCurso} )
+                                    listaMaterias.pop(0)
+                                    count = 0
+                                    break
+                                continue
+                    # diaEnCurso += datetime.timedelta(days=1)
+                    
+                    # f = (diaEnCurso).weekday()
+                    # if  f > 4:
+                    #     break
+                    # if diaEnCurso > self.fechaFinal:
+                    #     break
+                
+                
         return self.calendarioUtmExamenes
 
-    #Elimina las materias en las cuales ya fueron asignadas como examenes       
-    def deleteMateriasRepetidas(self, calendario, materia):
-        for i in range(len(calendario)):
-            for j in range(len(calendario[i])):
-                if j == 0:
+    def crearCalendarioExamenesExtraordinarios(self):
+        self.materiasSinExamenes = ['ingles', 'inglés']
+        fechaFinal = self.fechaFinal
+        numeroSemanas = self.calcularNumeroDeSemanasEnIntervalo(self.fechaFinal, 1)
+        self.calendarioUtmExamenes = [ 
+           [ [ '' for x in range( len(self.dias))] for y in range(len(self.calendarioUtm)) ] for i in range(numeroSemanas+1)
+        ]
+        self.calendarioUtm = self.deleteMateriasDondeNoSePresentaExamen(self.calendarioUtm, self.materiasSinExamenes)
+        self.addFechas()
+        # 'diaDeInicio' es el valor numerico del dia de inicio, se le agrega uno porque es base cero 
+        # y en nuestro arreglo de calendarios el valor '0' es ocupado por los horarios
+        diaDeInicio = self.fechaInicio.weekday() + 1
+        listaMaterias = self.getLisOrderedByPriority(self.calendarioUtm, numeroSemanas,diaDeInicio)
+        i = len(self.calendarioUtm)
+        j = len(self.calendarioUtm[0])
+        semana = 0
+        dia = 1
+        # diaEnCurso = self.fechaInicio 
+
+        while len(listaMaterias) > 0:
+            # diaDeInicio = self.fechaInicio.weekday() + 1
+            for semana in range(len(self.calendarioUtmExamenes)):
+                if len(listaMaterias) < 1:
+                    break
+                # diaEnCurso += datetime.timedelta(days=2 * semana)
+                # if diaEnCurso > self.fechaFinal:
+                #     diaEnCurso = self.fechaInicio
+                for column in range(j):
+                    if len(listaMaterias) < 1:
+                        break
+                    if column == 0:
+                        continue
+                    diaEnCurso = self.calendarioUtmExamenes[semana][0][column]
+                    if diaEnCurso < self.fechaInicio:
+                        continue
+                    if self.isInhabil(diaEnCurso) == True:
+                        for row in range(i):
+                            if row == 0:
+                                continue
+                            self.calendarioUtmExamenes[semana][row][column] = 'inhabil'
+                        continue
+                    for row in range(i):
+                        if row == 0:
+                            continue
+                        try:
+                            materia = self.calendarioUtm[row][column]['materia']
+                        except:
+                            materia = self.calendarioUtm[row][column]
+                        if len(listaMaterias) < 1:
+                            break
+                        if materia != '':
+                            self.calendarioUtmExamenes[semana][row][column] = self.calendarioUtm[row][column]
+                            self.calendarioUtmExamenes[semana][row][column].update( {'fecha': diaEnCurso} )
+                            self.calendarioUtmExamenes[semana][row][column].update( {'materia': listaMaterias[0][0]} )
+                            listaMaterias.pop(0)
+                           
+                    diaEnCurso += datetime.timedelta(days=1)
+                    if diaEnCurso > self.fechaFinal:
+                        break
+            
+                if diaEnCurso > self.fechaFinal:
+                    dia+=1
+                    tempCalendar = self.calendarioUtmExamenes[0]
+                    numeroSemanas = self.calcularNumeroDeSemanasEnIntervalo(fechaFinal, dia)
+                    self.calendarioUtmExamenes = [ 
+                        [[ '' for x in range( len(self.dias))] for y in range(len(self.calendarioUtm)) ] for i in range(numeroSemanas+1)
+                    ]
+                    self.addFechas()
+                    self.calendarioUtmExamenes[numeroSemanas] = tempCalendar
+                    # diaEnCurso = self.fechaInicio
+                    break
+                
+        return self.calendarioUtmExamenes
+
+    def getLisOrderedByPriority(self, array, numeroDeSemanas, diaDeInicio):
+        listaMaterias = []
+        listaMaterias2 = []
+
+        for semana in range(numeroDeSemanas + 1):
+            for column in range(len(array[0])):
+                if column == 0:
                     continue
-                try:
-                    materiaEnCalendario = self.calendarioUtm[i][j]['materia']
-                except:
-                    materiaEnCalendario = self.calendarioUtm[i][j]
-                    
-                if materiaEnCalendario != '':
-                    if materiaEnCalendario == materia:
-                        calendario[i][j] = ''
-        return calendario
-    
+                if column < diaDeInicio and semana == 0 and numeroDeSemanas > 0:
+                    continue
+                for row in range(len(array)):
+                    if row == 0:
+                        continue
+                    if array[row][column] != '':
+                        materia = array[row][column]['materia']
+                        if materia[0:6].lower() != 'inglés' and materia[0:8].lower() != 'tutorías' and materia != 'modulo libre' and materia[0:6].lower() != 'ingles' and materia[0:8].lower() != 'tutorias':
+                            try:
+                                if array[row+1][column] != '':
+                                    nextMateria = array[row+1][column]['materia']
+                                else:
+                                    nextMateria = ''
+                            except:
+                                nextMateria = ''
+                            if materia == nextMateria:
+                                listaMaterias.append( materia )
+                                if len(array) < row+1:
+                                    row+=1
+                            if listaMaterias2.count(materia) < 1:
+                                listaMaterias2.append(materia)
+
+        for item in range(len(listaMaterias2)):
+            listaMaterias2[item] = ( listaMaterias2[item], listaMaterias.count(listaMaterias2[item]) )
+             
+        listaMaterias2.sort(key = operator.itemgetter(1))
+        return listaMaterias2
+
     def validarExamenesAsignadosPorDia(self, calendario, column, numeroDeMateriasPorDia):
         count = 0
         for row in range( len(calendario) ):
+            if row == 0:
+                continue
             if calendario[row][column] != '':
                 count += 1
                 if count >= numeroDeMateriasPorDia:
                     return True
         return False
-
+    
+    def validarSiMateriaEsDeDosModulos(self, calendario, column, row, materia):
+        largo = len(calendario)-1
+        if row >= largo:
+            return False
+        try:
+            comparacion = calendario[row+1][column]['materia']
+        except:
+            return False
+        if materia == comparacion:
+            return True
+        return False
+        
     def deleteMateriasDondeNoSePresentaExamen(self, calendario, materias):
         for materia in materias:
-            for i in range(len(calendario)):
-                if i == 0:
+            for row in range(len(calendario)):
+                if row == 0:
                     continue
-                for j in range(len(calendario[i])):
-                    if j == 0:
+                for column in range(len(calendario[row])):
+                    if column == 0:
                         continue
-                    materiaEnCalendario = calendario[i][j]
+    
+                    materiaEnCalendario = calendario[row][column]
                     if materiaEnCalendario != '':
-                        materiaEnCalendario[0] = unidecode.unidecode(materiaEnCalendario[0]).lower()
-                        if materiaEnCalendario[0]== materia.lower():
-                            calendario[i][j] = ''
+                        materiaEnCalendario = calendario[row][column]['materia'][0:len(materia)]
+                        materiaEnCalendario = materiaEnCalendario.lower()
+                        if materiaEnCalendario== materia.lower():
+                            calendario[row][column] = ''
         return calendario
 
-    def validarSiTodosLosExamenesFueronAplicados(self):
-        for i in range(len(self.calendarioUtm)):
-            # if i == 0:
-            #     continue
-            for j in range(len(self.calendarioUtm[i])):
-                if j == 0:
-                    continue
-                try:
-                    materiaEnCalendario = self.calendarioUtm[i][j]['materia']
-                    if materiaEnCalendario == 'modulo libre':
-                        continue
-                except:
-                    materiaEnCalendario = self.calendarioUtm[i][j]
-
-                if materiaEnCalendario != '':
-                    return False
-        return True
-
-    def printCalendarioExamenes(self):
-        i = len(self.calendarioUtmExamenes[0])
-        j = len(self.calendarioUtmExamenes[0][0])
-        diaEnCurso = self.fechaInicio
-        encabezadoDia = ""
-        for semana in range(len(self.calendarioUtmExamenes)):
-            print("\n ************* Semana " + str(semana+1) + " ****************")
-            for column in range(j):
-                EmpezarDia = self.fechaInicio.weekday()+1
-                if column == 0 or (column < EmpezarDia and semana == 0):
-                    continue
-                diaEnCurso += datetime.timedelta(days=1)
-                for row in range(i):
-                    if self.calendarioUtmExamenes[semana][row][column] != '':
-                        if self.isInhabil(diaEnCurso) == True:
-                            dia = self.calendarioUtmExamenes[semana][row][column]
-                            dia = self.completarNombreImpresion(dia)
-                            print( "El "+ dia +" " + str(diaEnCurso) +" es día inhabil \n")
-                        else:
-                            if row == 0:
-                                dia = self.calendarioUtmExamenes[semana][row][column]
-                                dia = self.completarNombreImpresion(dia)
-                                encabezadoDia =  dia + " " + str(diaEnCurso) + "\n" 
-                            else:
-                                if encabezadoDia != "":
-                                    print (encabezadoDia)
-                                    encabezadoDia = ""
-                                texto = ""
-                                for item in self.calendarioUtmExamenes[semana][row][column]:
-                                    texto += item + "\n"
-                                print(texto)
-
-    def calcularNumeroDeSemanasEnIntervalo(self, fechaFinal):
+    def calcularNumeroDeSemanasEnIntervalo(self, fechaFinal, cantidadDias):
         dia = int(fechaFinal[2])
         mes = int(fechaFinal[1])
         anio = int(fechaFinal[0])
@@ -182,12 +289,12 @@ class CalendarioExamenes():
         fechaInicio = fecha - datetime.timedelta(days=1)
         diasEntreSemana = 0
         i=0
-        while diasEntreSemana < 5:
+        while diasEntreSemana < cantidadDias:
             dia = fechaFinal - datetime.timedelta(days=i)
             f = (dia).weekday()
             if  f < 5 and self.isInhabil(dia) != True:
                 diasEntreSemana += 1
-            if diasEntreSemana < 5:
+            if diasEntreSemana < cantidadDias:
                 fechaInicio -= datetime.timedelta(days=1)
             i+=1
         
@@ -195,28 +302,36 @@ class CalendarioExamenes():
         d1 = fechaFinal.isocalendar()[1]
         d2 = fechaInicio.isocalendar()[1] 
         result = d1 - d2 
+        self.fechaFinal = fechaFinal
         self.fechaInicio = fechaInicio
+        
+
         return result
 
-    def isInhabil(self, dia):
-        for diaInhabil in self.diasInhabiles:
-            x = str(diaInhabil).split('-')
-            comparacion = date( int(x[0]), int(x[1]), int(x[2]))
-            if dia == comparacion:
-                return True
-        return False
+    def addFechas(self):
+        diaDeInicio = self.fechaInicio
+        diaDeInicio = self.fechaInicio - datetime.timedelta(days=diaDeInicio.weekday() ) 
+        for semana in range(len(self.calendarioUtmExamenes)):
+            diaDeInicio += datetime.timedelta(days=2 * semana)
+            for column in range(len(self.calendarioUtmExamenes[semana][0])):
+                # if column == 0 or (column < diaDeInicio and semana == 0):
+                #     continue
+                if column == 0:
+                    continue
+                self.calendarioUtmExamenes[semana][0][column] = diaDeInicio
+                diaDeInicio += datetime.timedelta(days=1)
 
-    def completarNombreImpresion(self, dia):
-        if dia.lower() == "lu":
-            return "Lunes"
-        elif dia.lower() == "ma":
-            return "Martes"
-        elif dia.lower() == "mi":
-            return "Miercoles"
-        elif dia.lower() == "ju":
-            return "Jueves"
-        else:
-            return "Viernes"
+    def isInhabil(self, dia):
+        try:
+            for diaInhabil in self.diasInhabiles:
+                x = str(diaInhabil).split('-')
+                comparacion = date( int(x[0]), int(x[1]), int(x[2]))
+                if dia == comparacion:
+                    return True
+            return False
+        except:
+            return False
+
 
 # obj = calendarioExamenes()
 # obj.crearCalendarioExmanes()
