@@ -300,6 +300,7 @@ class SubWindow(tk.Toplevel):
             return False
     
     def disableAllcells(self, materia, color, row1, column1,z1, permissions=None, index=None, lastMateria=None):
+        print(z1)
         if self.modificacionActivada == False:
             self.celdaActivada = []
             self.celdaActivada.append({
@@ -328,7 +329,7 @@ class SubWindow(tk.Toplevel):
                             if color == '#FFFFFF':
                                 self.buttons[z][row][column].config(
                                     state= 'normal', 
-                                    command= lambda m=materia,color='#FD6331',row=row,column=column,z=z1: self.actifAllCells(m,color,z, row,column, True, index)
+                                    command= lambda m=materia,color='#FD6331',row=row,column=column,z=z: self.actifAllCells(m,color,z, row,column, True, index)
                                     )
                             else:
                                 self.buttons[z][row][column].config(
@@ -410,7 +411,7 @@ class SubWindow(tk.Toplevel):
 
     #Este metodo activa las celdas despues de haber seleccionado una nueva materia
     def actifAllCells(self, materia, color,z,i,j, permissions=None, index=None):
-        
+        print(z)
         if i != 0:
             if permissions != True:
                 #Elimina la informacion del arreglo de examenes 
