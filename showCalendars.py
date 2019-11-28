@@ -273,7 +273,11 @@ class SubWindow(tk.Toplevel):
 
         for c in range( len(self.buttons) ):
             for row in range( len(self.buttons[c] ) ):
+                if row == 0:
+                    continue
                 for column in range( len(self.buttons[c][row]) ):
+                    if column == 0:
+                        continue
                     try:
                         bg = self.buttons[c][row][column]['background']
                     except:
@@ -309,7 +313,11 @@ class SubWindow(tk.Toplevel):
             })
             for z in range( len(self.buttons) ):
                 for row in range( len(self.buttons[z] ) ):
+                    if row == 0:
+                        continue
                     for column in range( len(self.buttons[z][row] ) ):
+                        if column == 0:
+                            continue
                         if permissions != None:
                             self.calendarioGrupo[row1][column1]['materia'] = lastMateria
                             self.calendarioGrupo[row1][column1].pop('fecha', None)
@@ -334,10 +342,10 @@ class SubWindow(tk.Toplevel):
                                 self.buttons[z][row][column].config(
                                     state= 'disabled'
                                     )
-                            if row == 0:
-                                self.buttons[z][row][column].config(
-                                    state= 'disabled'
-                                    )
+                            # if row == 0:
+                            #     self.buttons[z][row][column].config(
+                            #         state= 'disabled'
+                            #         )
                         else:
                             if self.index < 4:
                                 try:
@@ -384,7 +392,7 @@ class SubWindow(tk.Toplevel):
                                         state= 'normal', 
                                         background='#FFFFFF',
                                         foreground='#1E1E1E',
-                                        command= lambda m = materia,c=color,z=z, i=row, j=column: self.actifAllCells(m,c,z,i,j)
+                                        command= lambda m = materia,c=color,z=z1, i=row1, j=column1: self.actifAllCells(m,c,z,i,j)
                                         )
                                 try:
                                     color = self.buttons[z][row][column]['background']
@@ -400,11 +408,11 @@ class SubWindow(tk.Toplevel):
                                         state= 'disabled', 
                                         command= lambda m = materia,c=color,z=z, i=row, j=column: self.actifAllCells(m,c,z,i,j)
                                         )
-                                if row == 0:
-                                    self.buttons[z][row][column].config(
-                                        state= 'disabled', 
-                                        command= lambda m = materia,c=color,z=z, i=row, j=column: self.actifAllCells(m,c,z,i,j)
-                                        )
+                                # if row == 0:
+                                #     self.buttons[z][row][column].config(
+                                #         state= 'disabled', 
+                                #         command= lambda m = materia,c=color,z=z, i=row, j=column: self.actifAllCells(m,c,z,i,j)
+                                #         )
 
             self.modificacionActivada = True
 
@@ -480,7 +488,7 @@ class SubWindow(tk.Toplevel):
             try:
                 self.calendarioGrupo[tempRow][tempColumn]['materia'] = tempMateria
             except:
-                print('falle :S')
+                pass
 
             if self.modificacionActivada:
                 if permissions != None:
@@ -582,70 +590,72 @@ class SubWindow(tk.Toplevel):
         return fechaInicio
 
     def nextCalendario(self, argv):
-        if self.validarSiSeAsignaronMateriasNoAplicadas():
-            if self.index < 5:
-                self.clear()
-                self.index+=1
-                self.calendarioExamenes = self.listCalendarios[self.index] 
-                self.grupo = argv[0][3]
-                self.calendarioGrupo = [self.dias] + argv[0][1]
-                self.fechaInicio = argv[0][2][self.index]
-                self.fechaFinal = argv[0][4][self.index]
+        if self.modificacionActivada != True:
+            if self.validarSiSeAsignaronMateriasNoAplicadas():
+                if self.index < 5:
+                    self.clear()
+                    self.index+=1
+                    self.calendarioExamenes = self.listCalendarios[self.index] 
+                    self.grupo = argv[0][3]
+                    self.calendarioGrupo = [self.dias] + argv[0][1]
+                    self.fechaInicio = argv[0][2][self.index]
+                    self.fechaFinal = argv[0][4][self.index]
 
-                if self.calendarioExamenes != 'Pendiente':
-                    if self.index < 4:
-                        self.printCalendario(self.calendarioExamenes, self.grupo, self.calendarioGrupo, self.fechaInicio)
+                    if self.calendarioExamenes != 'Pendiente':
+                        if self.index < 4:
+                            self.printCalendario(self.calendarioExamenes, self.grupo, self.calendarioGrupo, self.fechaInicio)
+                        else:
+                            self.printCalendarioExtraordinario(self.calendarioExamenes, self.grupo, self.calendarioGrupo, self.fechaInicio)
                     else:
-                        self.printCalendarioExtraordinario(self.calendarioExamenes, self.grupo, self.calendarioGrupo, self.fechaInicio)
-                else:
-                    self.printCalendarioPendiente(self.grupo, self.calendarioGrupo)
-            if self.index >= 5:
-                self.btn2.config(
-                    text="Crear Excel",
-                    command= lambda : self.createExcel()
-                )
-            if self.index > 0:
-                self.btn1.config(
-                    state="normal"
-                )
-            self.printListaMateriasNoAplicadas()
-            self.addMateriasCasoEspecial()
-        else:
-            tk.messagebox.showwarning(parent=self, message="Recuerde asignar todas las materias Pendientes", title="Asignación de materias")
-  
+                        self.printCalendarioPendiente(self.grupo, self.calendarioGrupo)
+                if self.index >= 5:
+                    self.btn2.config(
+                        text="Crear Excel",
+                        command= lambda : self.createExcel()
+                    )
+                if self.index > 0:
+                    self.btn1.config(
+                        state="normal"
+                    )
+                self.printListaMateriasNoAplicadas()
+                self.addMateriasCasoEspecial()
+            else:
+                tk.messagebox.showwarning(parent=self, message="Recuerde asignar todas las materias Pendientes", title="Asignación de materias")
+    
     
     def lastCalendario(self, argv):
-        if self.validarSiSeAsignaronMateriasNoAplicadas():
-            if self.index > 0:
-                self.clear()
-                self.index-=1
-                self.calendarioExamenes = self.listCalendarios[self.index] 
-                self.grupo = argv[0][3]
-                self.calendarioGrupo = [self.dias] + argv[0][1]
-                self.fechaInicio = argv[0][2][self.index]
-                self.fechaFinal = argv[0][4][self.index]
-                
-                if self.calendarioExamenes != 'Pendiente':
-                    if self.index < 4:
-                        self.printCalendario(self.calendarioExamenes, self.grupo, self.calendarioGrupo, self.fechaInicio)
+        if self.modificacionActivada != True:
+            if self.validarSiSeAsignaronMateriasNoAplicadas():
+                if self.index > 0:
+                    self.clear()
+                    self.index-=1
+                    self.calendarioExamenes = self.listCalendarios[self.index] 
+                    self.grupo = argv[0][3]
+                    self.calendarioGrupo = [self.dias] + argv[0][1]
+                    self.fechaInicio = argv[0][2][self.index]
+                    self.fechaFinal = argv[0][4][self.index]
+                    
+                    if self.calendarioExamenes != 'Pendiente':
+                        if self.index < 4:
+                            self.printCalendario(self.calendarioExamenes, self.grupo, self.calendarioGrupo, self.fechaInicio)
+                        else:
+                            self.printCalendarioExtraordinario(self.calendarioExamenes, self.grupo, self.calendarioGrupo, self.fechaInicio)
                     else:
-                        self.printCalendarioExtraordinario(self.calendarioExamenes, self.grupo, self.calendarioGrupo, self.fechaInicio)
-                else:
-                    self.printCalendarioPendiente(self.grupo, self.calendarioGrupo)
-            if self.index == 0:
-                self.btn1.config(
-                    state="disabled"
-                )
-            if self.index < 5:
-                self.btn2.config(
-                    text="Siguiente",
-                    command= lambda : self.nextCalendario(argv)
-                )
-            self.printListaMateriasNoAplicadas()
-            self.addMateriasCasoEspecial()
-        else:
-            tk.messagebox.showwarning(parent=self, message="Recuerde asignar todas las materias Pendientes", title="Asignación de materias")
-    
+                        self.printCalendarioPendiente(self.grupo, self.calendarioGrupo)
+                if self.index == 0:
+                    self.btn1.config(
+                        state="disabled"
+                    )
+                if self.index < 5:
+                    self.btn2.config(
+                        text="Siguiente",
+                        command= lambda : self.nextCalendario(argv)
+                    )
+                self.printListaMateriasNoAplicadas()
+                self.addMateriasCasoEspecial()
+            else:
+                tk.messagebox.showwarning(parent=self, message="Recuerde asignar todas las materias Pendientes", title="Asignación de materias")
+        
     def clear(self):
         # list = self.grid_slaves()
         # for l in list:
