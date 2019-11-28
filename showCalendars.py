@@ -300,7 +300,6 @@ class SubWindow(tk.Toplevel):
             return False
     
     def disableAllcells(self, materia, color, row1, column1,z1, permissions=None, index=None, lastMateria=None):
-        print(z1)
         if self.modificacionActivada == False:
             self.celdaActivada = []
             self.celdaActivada.append({
@@ -411,7 +410,6 @@ class SubWindow(tk.Toplevel):
 
     #Este metodo activa las celdas despues de haber seleccionado una nueva materia
     def actifAllCells(self, materia, color,z,i,j, permissions=None, index=None):
-        print(z)
         if i != 0:
             if permissions != True:
                 #Elimina la informacion del arreglo de examenes 
@@ -438,9 +436,10 @@ class SubWindow(tk.Toplevel):
                     self.listaMateriasNoAplicadas2[self.index] = listaAnterior
                 except:
                     newMateria = materia
-                    tempMateria = self.calendarioGrupo[i][j]['materia']
-                    tempRow = i
-                    tempColumn = j
+                    
+                tempMateria = self.calendarioGrupo[i][j]['materia']
+                tempRow = i
+                tempColumn = j
                 lastMateria = self.calendarioGrupo[i][j]['materia']
                 info['materia'] = newMateria
                 info['z'] = z
