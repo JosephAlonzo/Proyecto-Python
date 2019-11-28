@@ -26,6 +26,7 @@ class SubWindow(tk.Toplevel):
         self.parciales= ['PRIMER PARCIAL', 'SEGUNDO PARCIAL', 'TERCER PARCIAL', 'ORDINARIO 1', 'EXTRAORDINARIO 1', 'EXTRAORDINARIO 2']
         self.fechas = argv[0][4]
         self.listaMateriasNoAplicadas = list(argv[0][5])
+        self.listaMateriasNoAplicadas2 = list(argv[0][5])
         self.protocol('WM_DELETE_WINDOW', master.close)
         self.btn1 = ttk.Button(self.frameTitleAndButtons, text="Anterior",command= lambda: self.lastCalendario(argv))
         self.btn1.grid(row=0, column=1,sticky="w",  pady=10,  ipady=10)
@@ -88,7 +89,6 @@ class SubWindow(tk.Toplevel):
         self.lbl.grid(row=0, column=0,sticky="w", padx=(20, 0), pady=(20, 5))
         lastExamen = ''
         for currentCalendar in range( len(calendarioExamenes)):
-            # fechaInicio += datetime.timedelta(days=2*currentCalendar)
             for column in range( len(self.buttons[currentCalendar][0]) ):
                 diaEnCurso = calendarioExamenes[currentCalendar][0][column]
                 bg='#FFFFFF'
@@ -109,7 +109,7 @@ class SubWindow(tk.Toplevel):
                             examen = calendarioExamenes[currentCalendar][row][column]['materia']
                         except:
                             examen = calendarioExamenes[currentCalendar][row][column]
-                        if self.validarSiMateriaEsIgulAExamen(examen):
+                        if self.validarSiMateriaEsIgualAExamen(examen):
                             examen = ''
                     else:
                         examen = ''
@@ -434,11 +434,16 @@ class SubWindow(tk.Toplevel):
                 info = self.calendarioGrupo[i][j]
                 try:
                     newMateria = self.listaMateriasNoAplicadas[self.index][index]
+                    listaAnterior = list(self.listaMateriasNoAplicadas[self.index])
                     self.listaMateriasNoAplicadas[self.index].pop(index)
+                    self.listaMateriasNoAplicadas2[self.index] = listaAnterior
                 except:
                     newMateria = materia
                 lastMateria = self.calendarioGrupo[i][j]['materia']
                 info['materia'] = newMateria
+                info['z'] = z
+                info['row'] = i
+                info['colum'] = j
                 try:
                     z1 = int(self.celdaActivada[0]['z'])
                     row1 = int(self.celdaActivada[0]['row']) 
@@ -563,7 +568,6 @@ class SubWindow(tk.Toplevel):
 
             self.modificacionActivada = False
 
-        
             
     def addFechas(self, fechaInicio):
         f = (fechaInicio).weekday()
@@ -600,6 +604,7 @@ class SubWindow(tk.Toplevel):
                     state="normal"
                 )
             self.printListaMateriasNoAplicadas()
+            self.addMateriasCasoEspecial()
         else:
             tk.messagebox.showwarning(parent=self, message="Recuerde asignar todas las materias Pendientes", title="Asignación de materias")
   
@@ -632,6 +637,7 @@ class SubWindow(tk.Toplevel):
                     command= lambda : self.nextCalendario(argv)
                 )
             self.printListaMateriasNoAplicadas()
+            self.addMateriasCasoEspecial()
         else:
             tk.messagebox.showwarning(parent=self, message="Recuerde asignar todas las materias Pendientes", title="Asignación de materias")
     
@@ -666,7 +672,7 @@ class SubWindow(tk.Toplevel):
         except:
             return True
     
-    def validarSiMateriaEsIgulAExamen(self, materia):
+    def validarSiMateriaEsIgualAExamen(self, materia):
         try:
             if len(self.listaMateriasNoAplicadas2[self.index]) > 0:
                 for item in self.listaMateriasNoAplicadas2[self.index]:
@@ -677,4 +683,31 @@ class SubWindow(tk.Toplevel):
         except:
             return False
 
-
+    def addMateriasCasoEspecial(self):
+        color = '#31D68B'
+        index = 0
+        try:
+            if len(self.listaMateriasNoAplicadas2[self.index]) > 0:
+                for item in self.listaMateriasNoAplicadas2[self.index]:
+                    for z in range(len(self.calendarioExamenes)):
+                        for row in range(len(self.calendarioExamenes[z])):
+                            for column in range(len(self.calendarioExamenes[z][row])):
+                                try:
+                                    materia = self.calendarioExamenes[z][row][column]['materia']
+                                    lastMateria = self.calendarioGrupo[row][column]['materia']
+                                except:
+                                    continue
+                                if materia == item:
+                                    self.buttons[z][row][column].config(
+                                    state= 'normal',
+                                    background=color,
+                                    foreground= '#FFFFFF',
+                                    text= materia,
+                                    command= lambda m=materia,c=color,row=row,column=column,z=z, permissions = True, index=index, lastMateria= lastMateria: 
+                                    self.disableAllcells(m,c,row,column,z, permissions, index, lastMateria)
+                                    )
+                    index += 1
+            else:
+                pass
+        except:
+            pass

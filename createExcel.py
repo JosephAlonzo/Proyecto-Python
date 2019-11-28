@@ -36,11 +36,11 @@ class SubWindow(tk.Toplevel):
         self.lbl3 = ttk.Label(self, text="Parcial 3")
         self.lbl3.grid(column=0, row=2,sticky="nsew", padx=10, pady=5)
 
-        self.txts[0] = ttk.Entry(self, text="2019-10-04")
+        self.txts[0] = ttk.Entry(self, text="")
         self.txts[0].grid(column = 1, row = 0,columnspan=2)
-        self.txts[1] = ttk.Entry(self, text="2019-10-31")
+        self.txts[1] = ttk.Entry(self, text="")
         self.txts[1].grid(column = 1, row = 1,columnspan=2)
-        self.txts[2] = ttk.Entry(self, text="2019-12-04")
+        self.txts[2] = ttk.Entry(self, text="")
         self.txts[2].grid(column = 1, row = 2,columnspan=2)
 
         self.lbl4 = ttk.Label(self, text="Fecha ordinario")
@@ -50,11 +50,11 @@ class SubWindow(tk.Toplevel):
         self.lbl6 = ttk.Label(self, text="Fecha extraordinario 2")
         self.lbl6.grid(column=3, row=2, padx=5)
 
-        self.txts[3] = ttk.Entry(self, text="2019-12-11")
+        self.txts[3] = ttk.Entry(self, text="")
         self.txts[3].grid(column = 4, row = 0,columnspan=2, padx=10, pady=5)
-        self.txts[4] = ttk.Entry(self, text="2019-12-13")
+        self.txts[4] = ttk.Entry(self, text="")
         self.txts[4].grid(column = 4, row = 1,columnspan=2, padx=10, pady=5)
-        self.txts[5] = ttk.Entry(self, text="2019-12-17")
+        self.txts[5] = ttk.Entry(self, text="")
         self.txts[5].grid(column = 4, row = 2,columnspan=2, padx=10, pady=5)
 
         self.btn = ttk.Button(self, text="Generar Excel", command= lambda : self.generateExcel())
