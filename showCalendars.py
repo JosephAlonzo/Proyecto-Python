@@ -332,13 +332,11 @@ class SubWindow(tk.Toplevel):
                                     )
                             else:
                                 self.buttons[z][row][column].config(
-                                    state= 'disabled', 
-                                    command= lambda m = materia,c=color,z=z, i=row, j=column: self.actifAllCells(m,c,z,i,j)
+                                    state= 'disabled'
                                     )
                             if row == 0:
                                 self.buttons[z][row][column].config(
-                                    state= 'disabled', 
-                                    command= lambda m = materia,c=color,z=z, i=row, j=column: self.actifAllCells(m,c,z,i,j)
+                                    state= 'disabled'
                                     )
                         else:
                             if self.index < 4:
@@ -439,6 +437,9 @@ class SubWindow(tk.Toplevel):
                     self.listaMateriasNoAplicadas2[self.index] = listaAnterior
                 except:
                     newMateria = materia
+                    tempMateria = self.calendarioGrupo[i][j]['materia']
+                    tempRow = i
+                    tempColumn = j
                 lastMateria = self.calendarioGrupo[i][j]['materia']
                 info['materia'] = newMateria
                 info['z'] = z
@@ -471,11 +472,15 @@ class SubWindow(tk.Toplevel):
                 a = self.calendarioGrupo[i][j]
                 b = self.calendarioGrupo[i-1][j]
                 if  a == b and a != '' and b != '':
-                    self.listCalendarios[self.index][z][i-1][j] = info
+                    self.listCalendarios[self.index][z][i-1][j] = dict(info)
                 else:
-                    self.listCalendarios[self.index][z][i][j] = info
+                    self.listCalendarios[self.index][z][i][j] = dict(info)
             else:
-                self.listCalendarios[self.index][z][i][j] = info
+                self.listCalendarios[self.index][z][i][j] = dict(info)
+            try:
+                self.calendarioGrupo[tempRow][tempColumn]['materia'] = tempMateria
+            except:
+                print('falle :S')
 
             if self.modificacionActivada:
                 if permissions != None:
