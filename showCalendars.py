@@ -408,12 +408,6 @@ class SubWindow(tk.Toplevel):
                                         state= 'disabled', 
                                         command= lambda m = materia,c=color,z=z, i=row, j=column: self.actifAllCells(m,c,z,i,j)
                                         )
-                                # if row == 0:
-                                #     self.buttons[z][row][column].config(
-                                #         state= 'disabled', 
-                                #         command= lambda m = materia,c=color,z=z, i=row, j=column: self.actifAllCells(m,c,z,i,j)
-                                #         )
-
             self.modificacionActivada = True
 
     #Este metodo activa las celdas despues de haber seleccionado una nueva materia
@@ -475,8 +469,6 @@ class SubWindow(tk.Toplevel):
                 pass
 
             if self.index < 4:
-                # a = self.calendarioGrupo[z][i][j]
-                # b = self.calendarioGrupo[z][i-1][j]
                 a = self.calendarioGrupo[i][j]
                 b = self.calendarioGrupo[i-1][j]
                 if  a == b and a != '' and b != '':
