@@ -201,8 +201,23 @@ class CalendarioExamenes():
                     self.calendarioUtmExamenes[numeroSemanas] = tempCalendar
                     # diaEnCurso = self.fechaInicio
                     break
-                
+
+        self.addDiasInhabilesInInterface(i,j)       
         return self.calendarioUtmExamenes
+
+    def addDiasInhabilesInInterface(self, i, j):
+        for semana in range(len(self.calendarioUtmExamenes)):
+            for column in range(j):
+                if column == 0:
+                    continue
+                diaEnCurso = self.calendarioUtmExamenes[semana][0][column]
+                if diaEnCurso < self.fechaInicio:
+                    continue
+                if self.isInhabil(diaEnCurso) == True:
+                    for row in range(i):
+                        if row == 0:
+                            continue
+                        self.calendarioUtmExamenes[semana][row][column] = 'inhabil'
 
     def getLisOrderedByPriority(self, array, numeroDeSemanas, diaDeInicio):
         listaMaterias = []

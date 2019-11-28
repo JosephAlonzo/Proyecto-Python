@@ -191,7 +191,7 @@ class SubWindow(tk.Toplevel):
                     try:
                         examen = calendarioExamenes[currentCalendar][row][column]['materia']
                     except:
-                        examen = ''
+                        examen = calendarioExamenes[currentCalendar][row][column]
                     if row == 0:
                         if column > 0:
                             if diaEnCurso > fechaFinal-datetime.timedelta(days=1):
@@ -206,8 +206,6 @@ class SubWindow(tk.Toplevel):
                             fg='#797689'
                             state = 'disabled'
                             materia = 'Día inhábil'
-                            calendarioExamenes[currentCalendar][row][column] = ''
-
                         else:
                             if  examen != '':
                                 color = "#FD5028"
@@ -450,7 +448,8 @@ class SubWindow(tk.Toplevel):
                     pass
 
 
-            nuevafecha = self.buttons[z][0][j]['text'].split(' ')
+            nuevafecha = self.buttons[z][0][j]['text']
+            nuevafecha = nuevafecha.split(' ')
             nuevafecha= nuevafecha[1].split('/')
             dia = int(nuevafecha[0])
             mes = int(nuevafecha[1])
@@ -529,23 +528,23 @@ class SubWindow(tk.Toplevel):
                                         self.buttons[c][row][column].config(state= 'disabled')
                                     else:
                                         self.buttons[c][row][column].config(state= 'normal')
-            #Examenes extraordinarios
-            else:
-                for c in range( len(self.buttons) ):
-                    for row in range( len(self.buttons[c] ) ):
-                        for column in range( len(self.buttons[c][row]) ):
-                            try:
-                                bg = self.buttons[c][row][column]['background']
-                            except:
-                                continue
-                            if bg == '#FFFFFF' or bg == '#2F2E35':
-                                self.buttons[c][row][column].config(state= 'disabled')
-                            else:
-                                materia = self.buttons[c][row][column]['text']
-                                self.buttons[c][row][column].config(
-                                    state= 'normal',
-                                    command= lambda m=materia,c=color,row=row,column=column,z=c: self.disableAllcells(m,c,row,column,z)
-                                )
+                    #Examenes extraordinarios
+                    else:
+                        for c in range( len(self.buttons) ):
+                            for row in range( len(self.buttons[c] ) ):
+                                for column in range( len(self.buttons[c][row]) ):
+                                    try:
+                                        bg = self.buttons[c][row][column]['background']
+                                    except:
+                                        continue
+                                    if bg == '#FFFFFF' or bg == '#2F2E35':
+                                        self.buttons[c][row][column].config(state= 'disabled')
+                                    else:
+                                        materia = self.buttons[c][row][column]['text']
+                                        self.buttons[c][row][column].config(
+                                            state= 'normal',
+                                            command= lambda m=materia,c=color,row=row,column=column,z=c: self.disableAllcells(m,c,row,column,z)
+                                        )
             if permissions != None:
                 for c in range( len(self.buttons) ):
                     for row in range( len(self.buttons[c] ) ):
