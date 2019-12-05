@@ -1,0 +1,21 @@
+[INFO  - 2019-12-02T06:27:10.217Z] GhostDriver - Main - running on port 50763
+[INFO  - 2019-12-02T06:27:13.142Z] Session [c6e7def0-14cc-11ea-9086-4ffbdf5538e7] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-12-02T06:27:13.142Z] Session [c6e7def0-14cc-11ea-9086-4ffbdf5538e7] - page.customHeaders:  - {}
+[INFO  - 2019-12-02T06:27:13.143Z] Session [c6e7def0-14cc-11ea-9086-4ffbdf5538e7] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-12-02T06:27:13.143Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: c6e7def0-14cc-11ea-9086-4ffbdf5538e7
+[ERROR - 2019-12-02T06:27:18.307Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 157526803825[INFO  - 2019-12-02T06:31:34.593Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+t(s) NOT Found: GAVE UP. Search Stop Time: 1575268039271
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-12-02T06:27:20.235Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1575268040226
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-12-02T06:27:21.158Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1575268041153
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-12-02T06:27:22.111Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1575268042089
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-12-02T06:27:23.019Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1575268043013
+
+  phantomjs://platform/console++.js:263 in error

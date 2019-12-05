@@ -51,8 +51,8 @@ class Application(ttk.Frame):
     def selected_item(self, event):
         curItem = self.treeView.item(self.treeView.focus())
         col = self.treeView.identify_column(event.x)
-        #print ('curItem = ', curItem)
-        #print ('col = ', col)
+        print ('curItem = ', curItem)
+        print ('col = ', col)
         # index = int(col[1:])-1
         # print(index)
         # cell_value = curItem['values'][index]

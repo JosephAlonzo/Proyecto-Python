@@ -666,7 +666,13 @@ class SubWindow(tk.Toplevel):
             excel = excelCreator(self.listCalendarios, self.grupo, self.fechas, self.calendarioGrupo)
             excel.createExcel()
             tk.messagebox.showinfo(parent=self, message="Se ha generado con exito el Excel", title="Generar Excel")
-            os.system('start excel.exe "%s\\calendario.xlsx"' % (sys.path[0], ))
+            #os.system('start excel.exe "%s\\calendario.xlsx"' % (sys.path[0], ))
+            path = os.path.dirname(sys.argv[0])
+            if not path:
+                path = '.'
+            print(path)
+            os.system('start excel.exe "%s\\calendario.xlsx"' % (path, ))
+            
         except:
             tk.messagebox.showwarning(parent=self, message="No se ha podido completar la acción", title="Generar Excel")
 
