@@ -28,7 +28,7 @@ class HtmlRecuperator():
         driver.get(self.url)
         try:
             self.svg = WebDriverWait(driver, 5).until(
-                EC.presence_of_element_located((By.CLASS_NAME, "print-sheet"))
+                EC.presence_of_element_located((By.CLASS_NAME, "print-nobreak"))
             )
             self.svg = self.svg.get_attribute('innerHTML')
         except:

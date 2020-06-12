@@ -6563,6 +6563,650 @@
                 "horario": "20:10-21:00",
                 "dia": "Vi"
             }
+        ],
+        "3A-DSM": [
+            {
+                "materia": "CALCULO DIFERENCIAL",
+                "maestro": "Quijano Cruz Bonesi",
+                "salon": "Aula C-21",
+                "color": "#229C3E",
+                "horario": "7:00-7:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Turriza Su\u00e1rez Alex Antonio",
+                "salon": "Aula C-20",
+                "color": "#003399",
+                "horario": "7:00-7:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Turriza Su\u00e1rez Alex Antonio",
+                "salon": "Aula C-23",
+                "color": "#003399",
+                "horario": "7:00-7:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL III",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-16",
+                "color": "#EF0B6B",
+                "horario": "7:00-7:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "CALCULO DIFERENCIAL",
+                "maestro": "Quijano Cruz Bonesi",
+                "salon": "Aula C-17",
+                "color": "#229C3E",
+                "horario": "7:00-7:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "CALCULO DIFERENCIAL",
+                "maestro": "Quijano Cruz Bonesi",
+                "salon": "Aula C-21",
+                "color": "#229C3E",
+                "horario": "7:50-8:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Turriza Su\u00e1rez Alex Antonio",
+                "salon": "Aula C-20",
+                "color": "#003399",
+                "horario": "7:50-8:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Turriza Su\u00e1rez Alex Antonio",
+                "salon": "Aula C-23",
+                "color": "#003399",
+                "horario": "7:50-8:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL III",
+                "maestro": "Villanueva Aranda Karla Eugenia",
+                "salon": "Aula C-16",
+                "color": "#EF0B6B",
+                "horario": "7:50-8:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "CALCULO DIFERENCIAL",
+                "maestro": "Quijano Cruz Bonesi",
+                "salon": "Aula C-17",
+                "color": "#229C3E",
+                "horario": "7:50-8:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "SISTEMAS OPERATIVOS",
+                "maestro": "Ruiz Barbosa Marlene",
+                "salon": "Lab8",
+                "color": "#CCFFFF",
+                "horario": "9:00-9:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "SISTEMAS OPERATIVOS",
+                "maestro": "Ruiz Barbosa Marlene",
+                "salon": "Lab6",
+                "color": "#CCFFFF",
+                "horario": "9:00-9:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "SISTEMAS OPERATIVOS",
+                "maestro": "Ruiz Barbosa Marlene",
+                "salon": "Lab8",
+                "color": "#CCFFFF",
+                "horario": "9:00-9:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "APLICACIONES WEB",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab6",
+                "color": "#009933",
+                "horario": "9:00-9:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "BASES DE DATOS PARA APLICACIONES",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab8",
+                "color": "#3333CC",
+                "horario": "9:00-9:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "SISTEMAS OPERATIVOS",
+                "maestro": "Ruiz Barbosa Marlene",
+                "salon": "Lab8",
+                "color": "#CCFFFF",
+                "horario": "9:50-10:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "TUTOR\u00cdAS",
+                "maestro": "Moreno Caballero Eduardo Jes\u00fas Miguel",
+                "salon": "Aula C-16",
+                "color": "#C71BC1",
+                "horario": "9:50-10:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "SISTEMAS OPERATIVOS",
+                "maestro": "Ruiz Barbosa Marlene",
+                "salon": "Lab8",
+                "color": "#CCFFFF",
+                "horario": "9:50-10:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "APLICACIONES WEB",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab6",
+                "color": "#009933",
+                "horario": "9:50-10:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "BASES DE DATOS PARA APLICACIONES",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab8",
+                "color": "#3333CC",
+                "horario": "9:50-10:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "BASES DE DATOS PARA APLICACIONES",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab2",
+                "color": "#3333CC",
+                "horario": "11:00-11:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S III",
+                "maestro": "",
+                "salon": "Aula C-17",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "APLICACIONES WEB",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab4",
+                "color": "#009933",
+                "horario": "11:00-11:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S III",
+                "maestro": "",
+                "salon": "Aula C-20",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "INTEGRADORA I",
+                "maestro": "Moreno Caballero Eduardo Jes\u00fas Miguel",
+                "salon": "Lab3",
+                "color": "#C71BC1",
+                "horario": "11:00-11:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "BASES DE DATOS PARA APLICACIONES",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab2",
+                "color": "#3333CC",
+                "horario": "11:50-12:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S III",
+                "maestro": "",
+                "salon": "Aula C-17",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "APLICACIONES WEB",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab4",
+                "color": "#009933",
+                "horario": "11:50-12:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S III",
+                "maestro": "",
+                "salon": "Aula C-20",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "INTEGRADORA I",
+                "maestro": "Moreno Caballero Eduardo Jes\u00fas Miguel",
+                "salon": "Lab3",
+                "color": "#C71BC1",
+                "horario": "11:50-12:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S III",
+                "maestro": "",
+                "salon": "Aula C-19",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Lu"
+            },
+            {
+                "materia": "BASES DE DATOS PARA APLICACIONES",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab2",
+                "color": "#3333CC",
+                "horario": "12:40-13:30",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S III",
+                "maestro": "",
+                "salon": "Aula C-17",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Mi"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Turriza Su\u00e1rez Alex Antonio",
+                "salon": "Aula C-17",
+                "color": "#003399",
+                "horario": "12:40-13:30",
+                "dia": "Ju"
+            },
+            {
+                "materia": "APLICACIONES WEB",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab5",
+                "color": "#009933",
+                "horario": "12:40-13:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S III",
+                "maestro": "",
+                "salon": "Aula C-19",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "BASES DE DATOS PARA APLICACIONES",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab2",
+                "color": "#3333CC",
+                "horario": "13:30-14:20",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S III",
+                "maestro": "",
+                "salon": "Aula C-17",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "BASES DE DATOS PARA APLICACIONES",
+                "maestro": "Castillo Salazar Laura Angelina",
+                "salon": "Lab2",
+                "color": "#3333CC",
+                "horario": "13:30-14:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "APLICACIONES WEB",
+                "maestro": "Chuc Uc Joel Ivan",
+                "salon": "Lab5",
+                "color": "#009933",
+                "horario": "13:30-14:20",
+                "dia": "Vi"
+            }
+        ],
+        "3C-DSM": [
+            {
+                "materia": "SISTEMAS OPERATIVOS",
+                "maestro": "Ruiz Barbosa Marlene",
+                "salon": "Lab4",
+                "color": "#CCFFFF",
+                "horario": "7:00-7:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "CALCULO DIFERENCIAL",
+                "maestro": "Quijano Cruz Bonesi",
+                "salon": "Aula C-23",
+                "color": "#229C3E",
+                "horario": "7:00-7:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "SISTEMAS OPERATIVOS",
+                "maestro": "Ruiz Barbosa Marlene",
+                "salon": "Lab8",
+                "color": "#CCFFFF",
+                "horario": "7:00-7:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "CALCULO DIFERENCIAL",
+                "maestro": "Quijano Cruz Bonesi",
+                "salon": "Aula C-21",
+                "color": "#229C3E",
+                "horario": "7:00-7:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "APLICACIONES WEB",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab1",
+                "color": "#B180B7",
+                "horario": "7:00-7:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "SISTEMAS OPERATIVOS",
+                "maestro": "Ruiz Barbosa Marlene",
+                "salon": "Lab4",
+                "color": "#CCFFFF",
+                "horario": "7:50-8:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "CALCULO DIFERENCIAL",
+                "maestro": "Quijano Cruz Bonesi",
+                "salon": "Aula C-23",
+                "color": "#229C3E",
+                "horario": "7:50-8:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "TUTOR\u00cdAS",
+                "maestro": "Matos Morfin Victor Manuel",
+                "salon": "Aula C-18",
+                "color": "#CB36AC",
+                "horario": "7:50-8:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "CALCULO DIFERENCIAL",
+                "maestro": "Quijano Cruz Bonesi",
+                "salon": "Aula C-21",
+                "color": "#229C3E",
+                "horario": "7:50-8:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "APLICACIONES WEB",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab1",
+                "color": "#B180B7",
+                "horario": "7:50-8:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "APLICACIONES WEB",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab5",
+                "color": "#B180B7",
+                "horario": "9:00-9:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Uc Miam Aureny Magaly",
+                "salon": "Aula C-17",
+                "color": "#163372",
+                "horario": "9:00-9:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Uc Miam Aureny Magaly",
+                "salon": "Aula C-19",
+                "color": "#163372",
+                "horario": "9:00-9:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INTEGRADORA I",
+                "maestro": "Matos Morfin Victor Manuel",
+                "salon": "Lab8",
+                "color": "#CB36AC",
+                "horario": "9:00-9:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "BASES DE DATOS PARA APLICACIONES",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab1",
+                "color": "#14C000",
+                "horario": "9:00-9:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "APLICACIONES WEB",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab5",
+                "color": "#B180B7",
+                "horario": "9:50-10:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Uc Miam Aureny Magaly",
+                "salon": "Aula C-17",
+                "color": "#163372",
+                "horario": "9:50-10:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Uc Miam Aureny Magaly",
+                "salon": "Aula C-19",
+                "color": "#163372",
+                "horario": "9:50-10:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INTEGRADORA I",
+                "maestro": "Matos Morfin Victor Manuel",
+                "salon": "Lab8",
+                "color": "#CB36AC",
+                "horario": "9:50-10:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "BASES DE DATOS PARA APLICACIONES",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab1",
+                "color": "#14C000",
+                "horario": "9:50-10:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "BASES DE DATOS PARA APLICACIONES",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab1",
+                "color": "#14C000",
+                "horario": "11:00-11:50",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S III",
+                "maestro": "",
+                "salon": "Aula C-23",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ma"
+            },
+            {
+                "materia": "BASES DE DATOS PARA APLICACIONES",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab2",
+                "color": "#14C000",
+                "horario": "11:00-11:50",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S III",
+                "maestro": "",
+                "salon": "Aula C-16",
+                "color": "#fff",
+                "horario": "11:00-11:50",
+                "dia": "Ju"
+            },
+            {
+                "materia": "BASES DE DATOS PARA APLICACIONES",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab1",
+                "color": "#14C000",
+                "horario": "11:00-11:50",
+                "dia": "Vi"
+            },
+            {
+                "materia": "BASES DE DATOS PARA APLICACIONES",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab1",
+                "color": "#14C000",
+                "horario": "11:50-12:40",
+                "dia": "Lu"
+            },
+            {
+                "materia": "INGL\u00c9S III",
+                "maestro": "",
+                "salon": "Aula C-23",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ma"
+            },
+            {
+                "materia": "BASES DE DATOS PARA APLICACIONES",
+                "maestro": "Canche Caamal Mirian Magaly",
+                "salon": "Lab2",
+                "color": "#14C000",
+                "horario": "11:50-12:40",
+                "dia": "Mi"
+            },
+            {
+                "materia": "INGL\u00c9S III",
+                "maestro": "",
+                "salon": "Aula C-16",
+                "color": "#fff",
+                "horario": "11:50-12:40",
+                "dia": "Ju"
+            },
+            {
+                "materia": "PROBABILIDAD Y ESTAD\u00cdSTICA",
+                "maestro": "Uc Miam Aureny Magaly",
+                "salon": "Aula C-16",
+                "color": "#163372",
+                "horario": "11:50-12:40",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S III",
+                "maestro": "",
+                "salon": "Aula C-23",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Lu"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL III",
+                "maestro": "Rodr\u00edguez Mex Cristina  Del Carmen",
+                "salon": "Aula C-18",
+                "color": "#032ECD",
+                "horario": "12:40-13:30",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S III",
+                "maestro": "",
+                "salon": "Aula C-19",
+                "color": "#fff",
+                "horario": "12:40-13:30",
+                "dia": "Mi"
+            },
+            {
+                "materia": "APLICACIONES WEB",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab8",
+                "color": "#B180B7",
+                "horario": "12:40-13:30",
+                "dia": "Ju"
+            },
+            {
+                "materia": "SISTEMAS OPERATIVOS",
+                "maestro": "Ruiz Barbosa Marlene",
+                "salon": "Lab8",
+                "color": "#CCFFFF",
+                "horario": "12:40-13:30",
+                "dia": "Vi"
+            },
+            {
+                "materia": "INGL\u00c9S III",
+                "maestro": "",
+                "salon": "Aula C-23",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Lu"
+            },
+            {
+                "materia": "FORMACI\u00d3N SOCIOCULTURAL III",
+                "maestro": "Rodr\u00edguez Mex Cristina  Del Carmen",
+                "salon": "Aula C-18",
+                "color": "#032ECD",
+                "horario": "13:30-14:20",
+                "dia": "Ma"
+            },
+            {
+                "materia": "INGL\u00c9S III",
+                "maestro": "",
+                "salon": "Aula C-19",
+                "color": "#fff",
+                "horario": "13:30-14:20",
+                "dia": "Mi"
+            },
+            {
+                "materia": "APLICACIONES WEB",
+                "maestro": "Martinez Gaspar Marisa Concepcion",
+                "salon": "Lab8",
+                "color": "#B180B7",
+                "horario": "13:30-14:20",
+                "dia": "Ju"
+            },
+            {
+                "materia": "SISTEMAS OPERATIVOS",
+                "maestro": "Ruiz Barbosa Marlene",
+                "salon": "Lab8",
+                "color": "#CCFFFF",
+                "horario": "13:30-14:20",
+                "dia": "Vi"
+            }
         ]
     },
     "Fecha": [
